@@ -78,7 +78,8 @@ async def scrape_bakalari():
                             "room": room_full,
                             "room_abbrev": room_abbrev,
                             "day": detail.get("day", ""),
-                            "time": detail.get("time", "")
+                            "time": detail.get("time", ""),
+                            "group": detail.get("group", "")
                         })
 
         await browser.close()
