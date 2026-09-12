@@ -5,13 +5,17 @@ on:
     - cron: '0 4,16 * * *' # Spustí se každý den ve 4:00 a 16:00 UTC
   workflow_dispatch: # Umožní ti spustit to i ručně tlačítkem
 
+# TOTO JE TA ZÁSADNÍ NOVINKA: Povolení k zápisu do repozitáře
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # Aktualizováno na v4 (řeší varování)
       - name: Nastaveni Pythonu
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Aktualizováno na v5 (řeší varování)
         with:
           python-version: '3.10'
       - name: Instalace knihoven
@@ -25,4 +29,5 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git add ucitele.json
+          # Zkontroluje, zda se soubor změnil. Pokud ano, uloží ho a nahraje.
           git diff --quiet && git diff --staged --quiet || (git commit -m "Automaticka aktualizace rozvrhu" && git push)
