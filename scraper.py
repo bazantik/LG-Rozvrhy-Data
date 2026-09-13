@@ -8,7 +8,7 @@ async def scrape_bakalari():
         page = await browser.new_page()
         
         print("Načítám seznam tříd...")
-        await page.goto("https://is.gymjc.cz/bakaweb/Timetable/Public/")
+        await page.goto("https://is.gymjc.cz/bakaweb/Timetable/Public/", timeout=60000, wait_until="domcontentloaded")
         await page.wait_for_selector("select")
         
         classes = await page.eval_on_selector_all(
@@ -29,7 +29,7 @@ async def scrape_bakalari():
                 await asyncio.sleep(1)
                 
                 class_url = f"https://is.gymjc.cz/bakaweb/Timetable/Public/{week}/Class/{cls['id']}"
-                await page.goto(class_url)
+                await page.goto(class_url, timeout=60000, wait_until="domcontentloaded")
                 
                 try:
                     await page.wait_for_selector('.day-item-hover', timeout=3000)
