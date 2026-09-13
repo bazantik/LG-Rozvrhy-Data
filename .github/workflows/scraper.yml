@@ -2,32 +2,48 @@ name: Automaticky stahnout rozvrhy
 
 on:
   schedule:
-    - cron: '0 4,16 * * *' # Spustí se každý den ve 4:00 a 16:00 UTC
-  workflow_dispatch: # Umožní ti spustit to i ručně tlačítkem
-
-# TOTO JE TA ZÁSADNÍ NOVINKA: Povolení k zápisu do repozitáře
-permissions:
-  contents: write
+    # Spustí se automaticky každý den v 5:00 UTC (v ČR to je v 6:00, resp. 7:00 v létě)
+    - cron: '0 5 * * *'
+  workflow_dispatch: # Umožňuje ruční spuštění pomocí tlačítka "Run workflow"
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    
+    # 1. POJISTKA PROTI ZOMBIE BĚHŮM: Zabrání spálení minut, pokud Bakaláři spadnou
+    timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v4 # Aktualizováno na v4 (řeší varování)
-      - name: Nastaveni Pythonu
-        uses: actions/setup-python@v5 # Aktualizováno na v5 (řeší varování)
+      - name: Stáhnutí repozitáře
+        uses: actions/checkout@v4
+
+      - name: Nastavení Pythonu
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-      - name: Instalace knihoven
+          python-version: '3.12'
+
+      - name: Instalace knihoven a prohlížeče
         run: |
+          python -m pip install --upgrade pip
           pip install playwright
           playwright install chromium
-      - name: Spusteni skriptu
+
+      - name: Spuštění stahovacího skriptu
         run: python scraper.py
-      - name: Ulozeni noveho JSONu zpet na GitHub
+
+      - name: Uložení a nahrání změn (Commit and push)
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          # Přidáme pouze náš JSON soubor
           git add ucitele.json
-          # Zkontroluje, zda se soubor změnil. Pokud ano, uloží ho a nahraje.
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automaticka aktualizace rozvrhu" && git push)
+          
+          # 2. CHYTRÝ COMMIT: Pokud se rozvrh nezměnil, kód nespadne, jen vypíše zprávu
+          git commit -m "Automatická aktualizace rozvrhu" || echo "Žádné nové změny v rozvrhu. Soubor zůstává stejný."
+          
+          # 3. POJISTKA PROTI KONFLIKTŮM: Stáhne případné tvé manuální zásahy na webu před odesláním
+          git pull --rebase
+          
+          # 4. Nahrání na GitHub
+          git push
