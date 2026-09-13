@@ -6,6 +6,10 @@ on:
     - cron: '0 5 * * *'
   workflow_dispatch: # Umožňuje ruční spuštění pomocí tlačítka "Run workflow"
 
+# TÍMTO BOTOVI POVOLÍME ZÁPIS (Push) ZPĚT DO REPOZITÁŘE
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
