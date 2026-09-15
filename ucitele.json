@@ -390,8 +390,8 @@
             "subject": "Německý jazyk",
             "subject_abbrev": "Nj",
             "teacher_abbrev": "EL",
-            "room": "J1 - jazyková Nj (přízemí)",
-            "room_abbrev": "J1",
+            "room": "uHv - hudební výchova (2.patro)",
+            "room_abbrev": "uHv",
             "day": "22.9.2026 (úterý)",
             "time": "5 (11:30 - 12:15)",
             "group": "N1 - němčináři 1.sk."
@@ -12586,8 +12586,8 @@
             "subject": "Německý jazyk",
             "subject_abbrev": "Nj",
             "teacher_abbrev": "VM",
-            "room": "uHv - hudební výchova (2.patro)",
-            "room_abbrev": "uHv",
+            "room": "J1 - jazyková Nj (přízemí)",
+            "room_abbrev": "J1",
             "day": "22.9.2026 (úterý)",
             "time": "5 (11:30 - 12:15)",
             "group": "N1 - němčináři sk.1"
@@ -18819,18 +18819,6 @@
         {
             "week": "Actual",
             "class_name": "3.B",
-            "subject": "Dějepis",
-            "subject_abbrev": "D",
-            "teacher_abbrev": "BM",
-            "room": "3B - kmenová třídy 3.B (2.patro)",
-            "room_abbrev": "3B",
-            "day": "16.9.2026 (středa)",
-            "time": "4 (10:35 - 11:20)",
-            "group": ""
-        },
-        {
-            "week": "Actual",
-            "class_name": "3.B",
             "subject": "Společenskovědní seminář",
             "subject_abbrev": "Sp",
             "teacher_abbrev": "BM",
@@ -20154,6 +20142,18 @@
             "room_abbrev": "3A",
             "day": "18.9.2026 (pátek)",
             "time": "1 (7:45 - 8:30)",
+            "group": ""
+        },
+        {
+            "week": "Actual",
+            "class_name": "3.B",
+            "subject": "Český jazyk a literatura",
+            "subject_abbrev": "Čj",
+            "teacher_abbrev": "ZH",
+            "room": "3B - kmenová třídy 3.B (2.patro)",
+            "room_abbrev": "3B",
+            "day": "16.9.2026 (středa)",
+            "time": "4 (10:35 - 11:20)",
             "group": ""
         },
         {
