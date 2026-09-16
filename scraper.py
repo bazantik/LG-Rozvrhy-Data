@@ -1,6 +1,6 @@
 import json
 import asyncio
-from datetime import datetime
+from datetime import datetime, timezone
 from playwright.async_api import async_playwright
 
 async def scrape_bakalari():
@@ -83,9 +83,14 @@ async def scrape_bakalari():
 
         await browser.close()
 
+        # OCHRANA: Uložíme jen tehdy, pokud jsme stáhli data alespoň pro 10 učitelů
         if len(teachers_data) > 10:
+            
+            # NOVÉ: Uložíme čistý UTC čas v ISO formátu
+            timestamp_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            
             export_data = {
-                "last_updated": datetime.now().strftime("%d. %m. %Y v %H:%M"),
+                "last_updated": timestamp_iso,
                 "teachers": teachers_data
             }
             with open("ucitele.json", "w", encoding="utf-8") as f:
