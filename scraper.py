@@ -1,5 +1,6 @@
 import json
 import asyncio
+from datetime import datetime # NOVÉ: Import pro získání aktuálního času
 from playwright.async_api import async_playwright
 
 async def scrape_bakalari():
@@ -75,6 +76,34 @@ async def scrape_bakalari():
                             "subject": detail.get("subjecttext", ""),
                             "subject_abbrev": detail.get("subject_abbrev", ""),
                             "teacher_abbrev": detail.get("teacher_abbrev", ""), # Oficiální zkratka
+                            "room": room_full,
+                            "room_abbrev": room_abbrev,
+                            "day": detail.get("day", ""),
+                            "time": detail.get("time", ""),
+                            "group": detail.get("group", "")
+                        })
+
+        await browser.close()
+
+        # OCHRANA: Uložíme jen tehdy, pokud jsme stáhli data alespoň pro 10 učitelů
+        if len(teachers_data) > 10:
+            
+            # NOVÉ: Tvorba Root objektu, který obsahuje jak datum, tak samotná data
+            export_data = {
+                "last_updated": datetime.now().strftime("%d. %m. %Y v %H:%M"),
+                "teachers": teachers_data
+            }
+            
+            with open("ucitele.json", "w", encoding="utf-8") as f:
+                # NOVÉ: Ukládáme 'export_data', nikoliv jen samotné 'teachers_data'
+                json.dump(export_data, f, ensure_ascii=False, indent=4)
+                
+            print("Úspěšně hotovo! Data uložena.")
+        else:
+            print("CHYBA: Staženo příliš málo dat. JSON nebyl přepsán!")
+
+if __name__ == "__main__":
+    asyncio.run(scrape_bakalari())                            "teacher_abbrev": detail.get("teacher_abbrev", ""), # Oficiální zkratka
                             "room": room_full,
                             "room_abbrev": room_abbrev,
                             "day": detail.get("day", ""),
