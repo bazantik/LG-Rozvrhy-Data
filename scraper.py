@@ -1,6 +1,6 @@
 import json
 import asyncio
-from datetime import datetime # NOVÉ: Import pro získání aktuálního času
+from datetime import datetime
 from playwright.async_api import async_playwright
 
 async def scrape_bakalari():
@@ -19,14 +19,13 @@ async def scrape_bakalari():
         print(f"Nalezeno {len(classes)} tříd.")
 
         teachers_data = {}
-        weeks = ["Actual", "Next"] # Stahujeme oba týdny!
+        weeks = ["Actual", "Next"]
 
         for week in weeks:
             print(f"\n--- Stahuji data pro týden: {week} ---")
             for cls in classes:
                 print(f"Zpracovávám třídu: {cls['name'].strip()} ({week})")
                 
-                # SLUŠNÁ PRODLEVA: 1 vteřina pauza, abychom nedostali ban od serveru
                 await asyncio.sleep(1)
                 
                 class_url = f"https://is.gymjc.cz/bakaweb/Timetable/Public/{week}/Class/{cls['id']}"
@@ -50,7 +49,6 @@ async def scrape_bakalari():
                                 const subjAbbrevNode = cell.querySelector('.middle div');
                                 detail.subject_abbrev = subjAbbrevNode ? subjAbbrevNode.innerText.trim() : "";
                                 
-                                // NOVÉ: Získání oficiální zkratky učitele z HTML!
                                 const teacherAbbrevNode = cell.querySelector('.teacher-name');
                                 detail.teacher_abbrev = teacherAbbrevNode ? teacherAbbrevNode.innerText.trim() : "";
                                 
@@ -71,11 +69,11 @@ async def scrape_bakalari():
                         room_abbrev = room_full.split(" - ")[0] if room_full else ""
                         
                         teachers_data[teacher].append({
-                            "week": week, # Přidáme informaci o týdnu
+                            "week": week,
                             "class_name": cls['name'].strip(),
                             "subject": detail.get("subjecttext", ""),
                             "subject_abbrev": detail.get("subject_abbrev", ""),
-                            "teacher_abbrev": detail.get("teacher_abbrev", ""), # Oficiální zkratka
+                            "teacher_abbrev": detail.get("teacher_abbrev", ""),
                             "room": room_full,
                             "room_abbrev": room_abbrev,
                             "day": detail.get("day", ""),
@@ -85,38 +83,13 @@ async def scrape_bakalari():
 
         await browser.close()
 
-        # OCHRANA: Uložíme jen tehdy, pokud jsme stáhli data alespoň pro 10 učitelů
         if len(teachers_data) > 10:
-            
-            # NOVÉ: Tvorba Root objektu, který obsahuje jak datum, tak samotná data
             export_data = {
                 "last_updated": datetime.now().strftime("%d. %m. %Y v %H:%M"),
                 "teachers": teachers_data
             }
-            
             with open("ucitele.json", "w", encoding="utf-8") as f:
-                # NOVÉ: Ukládáme 'export_data', nikoliv jen samotné 'teachers_data'
                 json.dump(export_data, f, ensure_ascii=False, indent=4)
-                
-            print("Úspěšně hotovo! Data uložena.")
-        else:
-            print("CHYBA: Staženo příliš málo dat. JSON nebyl přepsán!")
-
-if __name__ == "__main__":
-    asyncio.run(scrape_bakalari())                            "teacher_abbrev": detail.get("teacher_abbrev", ""), # Oficiální zkratka
-                            "room": room_full,
-                            "room_abbrev": room_abbrev,
-                            "day": detail.get("day", ""),
-                            "time": detail.get("time", ""),
-                            "group": detail.get("group", "")
-                        })
-
-        await browser.close()
-
-        # OCHRANA: Uložíme jen tehdy, pokud jsme stáhli data alespoň pro 10 učitelů
-        if len(teachers_data) > 10:
-            with open("ucitele.json", "w", encoding="utf-8") as f:
-                json.dump(teachers_data, f, ensure_ascii=False, indent=4)
             print("Úspěšně hotovo! Data uložena.")
         else:
             print("CHYBA: Staženo příliš málo dat. JSON nebyl přepsán!")
