@@ -2,25 +2,25 @@ name: Automaticky stahnout rozvrhy
 
 on:
   schedule:
-    # Spustí se automaticky každý den od 5:00 UTC (v ČR to je v 6:00, resp. 7:00 v létě)
-    # 1. BLOK: Od 07:00 do 15:00 našeho letního času (každou hodinu)
-    # V UTC je to 05:00 až 13:00. Zápis 5-13 znamená "každou hodinu od 5 do 13".
+    # 1. BLOK: Od 07:00 do 15:00 našeho letního času (každou hodinu v 17. minutě)
     - cron: '17 5-13 * * *'
     
     # 2. BLOK: 17:00, 19:00, 21:00 a 00:00 našeho letního času
-    # V UTC je to 15:00, 17:00, 19:00 a 22:00.
     - cron: '17 15,17,19,22 * * *'
-  workflow_dispatch: # Umožňuje ruční spuštění pomocí tlačítka "Run workflow"
+  workflow_dispatch: # Umožňuje ruční spuštění přes aplikaci nebo web
 
-# TÍMTO BOTOVI POVOLÍME ZÁPIS (Push) ZPĚT DO REPOZITÁŘE
+# ZÁMEK PROTI SOUBĚHU: Zabrání paralelnímu běhu dvou scraperů současně
+concurrency:
+  group: scraper-data
+  cancel-in-progress: true
+
+# Povolen zápis zpět do repozitáře
 permissions:
   contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
-    # 1. POJISTKA PROTI ZOMBIE BĚHŮM: Zabrání spálení minut, pokud Bakaláři spadnou
     timeout-minutes: 10
 
     steps:
@@ -46,14 +46,27 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           
-          # Přidáme pouze náš JSON soubor
+          # 1. Pokud skript soubor vůbec nezměnil, skončíme čistě bez commitu
+          if git diff --quiet ucitele.json; then
+            echo "Žádné nové změny v rozvrhu. Soubor zůstává stejný."
+            exit 0
+          fi
+          
+          # 2. Zálohujeme čerstvě vygenerovaný JSON do dočasné paměti
+          cp ucitele.json /tmp/ucitele.json
+          
+          # 3. Získáme nejnovější stav větve main ze serveru (zamezí jakémukoliv předbíhání)
+          git fetch origin main
+          git reset --hard origin/main
+          
+          # 4. Vrátíme náš nově vygenerovaný JSON zpět
+          cp /tmp/ucitele.json ucitele.json
+          
+          # 5. Zkontrolujeme, zda se náš nový JSON liší od toho, co už je na serveru
           git add ucitele.json
-          
-          # 2. CHYTRÝ COMMIT: Pokud se rozvrh nezměnil, kód nespadne, jen vypíše zprávu
-          git commit -m "Automatická aktualizace rozvrhu" || echo "Žádné nové změny v rozvrhu. Soubor zůstává stejný."
-          
-          # 3. POJISTKA PROTI KONFLIKTŮM: Stáhne případné tvé manuální zásahy na webu před odesláním
-          git pull --rebase
-          
-          # 4. Nahrání na GitHub
-          git push
+          if git diff --staged --quiet; then
+            echo "Data na serveru jsou již identická s vygenerovanými."
+          else
+            git commit -m "Automatická aktualizace rozvrhu"
+            git push origin main
+          fi
