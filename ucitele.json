@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-18T06:41:01Z",
+    "last_updated": "2026-09-18T07:29:30Z",
     "teachers": {
         "Mgr. Barbora Elmali": [
             {
@@ -2970,8 +2970,8 @@
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
                 "teacher_abbrev": "TU",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
+                "room": "uB-C - kmenová třídy 5.C (2.patro)",
+                "room_abbrev": "uB-C",
                 "day": "18.9.2026 (pátek)",
                 "time": "5 (11:30 - 12:15)",
                 "group": ""
@@ -16408,8 +16408,8 @@
                 "subject": "Chemie",
                 "subject_abbrev": "Ch",
                 "teacher_abbrev": "HO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
                 "day": "18.9.2026 (pátek)",
                 "time": "5 (11:30 - 12:15)",
                 "group": ""
