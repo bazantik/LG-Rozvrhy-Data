@@ -12,13 +12,15 @@ if not BASE_URL:
     print("CHYBA: Není nastavena tajná proměnná BASE_URL v GitHub Secrets!")
     sys.exit(1)
 
-# Ostraníme případné lomítko na konci pro správné spojování odkazů
+# Odstraníme případné lomítko na konci pro správné spojování odkazů
 BASE_URL = BASE_URL.rstrip("/")
 
 async def scrape_bakalari():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
+        # Nastavíme české prostředí prohlížeče
+        context = await browser.new_context(locale="cs-CZ")
+        page = await context.new_page()
         
         print("Načítám seznam tříd...")
         await page.goto(f"{BASE_URL}/", timeout=60000, wait_until="domcontentloaded")
@@ -31,6 +33,7 @@ async def scrape_bakalari():
         print(f"Nalezeno {len(classes)} tříd.")
 
         teachers_data = {}
+        days_off_data = {"Actual": {}, "Next": {}}
         weeks = ["Actual", "Next"]
 
         for week in weeks:
@@ -43,9 +46,41 @@ async def scrape_bakalari():
                 class_url = f"{BASE_URL}/{week}/Class/{cls['id']}"
                 await page.goto(class_url, timeout=60000, wait_until="domcontentloaded")
                 
+                # 1. BEZPEČNÉ VYTAŽENÍ SVÁTKŮ A VOLNÝCH DNŮ (v try/except)
+                try:
+                    day_offs = await page.evaluate('''() => {
+                        const results = [];
+                        // Najdeme řádky dnů v rozvrhu
+                        const dayRows = document.querySelectorAll('.bk-timetable-days-wrapper .bk-timetable-row');
+                        
+                        dayRows.forEach((row, index) => {
+                            // Hledáme buňku volna uvnitř řádku dne
+                            const dayOffContent = row.querySelector('.dayoff-content');
+                            if (dayOffContent) {
+                                const nameEl = dayOffContent.querySelector('.dayoff-name');
+                                const name = nameEl ? nameEl.innerText.trim() : "Volno";
+                                
+                                // Index řádku 0..4 přímo odpovídá Pondělí až Pátek:
+                                if (index >= 0 && index < 5) {
+                                    results.push({ dayIndex: index, name: name });
+                                }
+                            }
+                        });
+                        return results;
+                    }''')
+
+                    for item in day_offs:
+                        d_idx = str(item["dayIndex"])
+                        if d_idx not in days_off_data[week]:
+                            days_off_data[week][d_idx] = item["name"]
+                            print(f"🎉 Nalezen den volna ({week}, den {d_idx}): {item['name']}")
+                except Exception:
+                    pass
+
+                # 2. STANDARDNÍ VYTAŽENÍ HODIN VÝUKY
                 try:
                     await page.wait_for_selector('.day-item-hover', timeout=3000)
-                except:
+                except Exception:
                     continue
                     
                 cells_data = await page.evaluate('''() => {
@@ -101,32 +136,7 @@ async def scrape_bakalari():
             
             export_data = {
                 "last_updated": timestamp_iso,
-                "teachers": teachers_data
-            }
-            with open("ucitele.json", "w", encoding="utf-8") as f:
-                json.dump(export_data, f, ensure_ascii=False, indent=4)
-            print("Úspěšně hotovo! Data uložena.")
-        else:
-            print("CHYBA: Staženo příliš málo dat. JSON nebyl přepsán!")
-
-if __name__ == "__main__":
-    asyncio.run(scrape_bakalari())                            "room": room_full,
-                            "room_abbrev": room_abbrev,
-                            "day": detail.get("day", ""),
-                            "time": detail.get("time", ""),
-                            "group": detail.get("group", "")
-                        })
-
-        await browser.close()
-
-        # OCHRANA: Uložíme jen tehdy, pokud jsme stáhli data alespoň pro 10 učitelů
-        if len(teachers_data) > 10:
-            
-            # NOVÉ: Uložíme čistý UTC čas v ISO formátu
-            timestamp_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-            
-            export_data = {
-                "last_updated": timestamp_iso,
+                "days_off": days_off_data,
                 "teachers": teachers_data
             }
             with open("ucitele.json", "w", encoding="utf-8") as f:
