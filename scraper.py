@@ -5,20 +5,17 @@ import sys
 from datetime import datetime, timezone
 from playwright.async_api import async_playwright
 
-# Načtení URL z tajných proměnných v GitHub Secrets
 BASE_URL = os.environ.get("BASE_URL")
 
 if not BASE_URL:
     print("CHYBA: Není nastavena tajná proměnná BASE_URL v GitHub Secrets!")
     sys.exit(1)
 
-# Odstraníme případné lomítko na konci pro správné spojování odkazů
 BASE_URL = BASE_URL.rstrip("/")
 
 async def scrape_bakalari():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        # Nastavíme české prostředí prohlížeče
         context = await browser.new_context(locale="cs-CZ")
         page = await context.new_page()
         
@@ -46,7 +43,7 @@ async def scrape_bakalari():
                 class_url = f"{BASE_URL}/{week}/Class/{cls['id']}"
                 await page.goto(class_url, timeout=60000, wait_until="domcontentloaded")
                 
-                # 1. BEZPEČNÉ VYTAŽENÍ SVÁTKŮ A VOLNÝCH DNŮ
+                # 1. Svatky a dny volna
                 try:
                     day_offs = await page.evaluate('''() => {
                         const results = [];
@@ -74,7 +71,7 @@ async def scrape_bakalari():
                 except Exception:
                     pass
 
-                # 2. STANDARDNÍ VYTAŽENÍ HODIN VÝUKY
+                # 2. Vytažení vyučovacích hodin
                 try:
                     await page.wait_for_selector('.day-item-hover', timeout=3000)
                 except Exception:
@@ -127,34 +124,17 @@ async def scrape_bakalari():
 
         await browser.close()
 
-        # OCHRANA: Uložíme jen tehdy, pokud jsme stáhli data alespoň pro 10 učitelů
+        # Uložíme VŽDY nový soubor s čerstvým časem, pokud jsou data validní
         if len(teachers_data) > 10:
-            should_save = True
-
-            # Ověříme, zda se rozvrh skutečně liší od stávajícího souboru na disku
-            if os.path.exists("ucitele.json"):
-                try:
-                    with open("ucitele.json", "r", encoding="utf-8") as existing_file:
-                        old_json = json.load(existing_file)
-                        old_teachers = old_json.get("teachers", {})
-                        old_days_off = old_json.get("days_off", {})
-
-                        if old_teachers == teachers_data and old_days_off == days_off_data:
-                            should_save = False
-                            print("ℹ️ Data rozvrhu jsou identická. Soubor ucitele.json nebude přepsán.")
-                except Exception as e:
-                    print(f"Varování: Nelze přečíst stávající soubor: {e}")
-
-            if should_save:
-                timestamp_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-                export_data = {
-                    "last_updated": timestamp_iso,
-                    "days_off": days_off_data,
-                    "teachers": teachers_data
-                }
-                with open("ucitele.json", "w", encoding="utf-8") as f:
-                    json.dump(export_data, f, ensure_ascii=False, indent=4)
-                print("Úspěšně hotovo! Byla detekována změna a nová data byla uložena.")
+            timestamp_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            export_data = {
+                "last_updated": timestamp_iso,
+                "days_off": days_off_data,
+                "teachers": teachers_data
+            }
+            with open("ucitele.json", "w", encoding="utf-8") as f:
+                json.dump(export_data, f, ensure_ascii=False, indent=4)
+            print(f"Úspěšně hotovo! Data uložena k času: {timestamp_iso}")
         else:
             print("CHYBA: Staženo příliš málo dat. JSON nebyl přepsán!")
 
