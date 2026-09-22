@@ -7,14 +7,13 @@ on:
     
     # 2. BLOK: 17:00, 19:00, 21:00 a 00:00 našeho letního času
     - cron: '17 15,17,19,22 * * *'
-  workflow_dispatch: # Umožňuje ruční spuštění přes aplikaci nebo web
+  workflow_dispatch:
 
-# ZÁMEK PROTI SOUBĚHU: Zabrání paralelnímu běhu dvou scraperů současně
+# ZÁMEK: Nechá běžící scraper vždy dokončit běh
 concurrency:
   group: scraper-data
-  cancel-in-progress: true
+  cancel-in-progress: false
 
-# Povolen zápis zpět do repozitáře
 permissions:
   contents: write
 
@@ -38,7 +37,6 @@ jobs:
           pip install playwright
           playwright install chromium
 
-      # ZDE JE ZMĚNA: Předáváme tajnou URL do Pythonu
       - name: Spuštění stahovacího skriptu
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -58,7 +56,7 @@ jobs:
           # 2. Zálohujeme čerstvě vygenerovaný JSON do dočasné paměti
           cp ucitele.json /tmp/ucitele.json
           
-          # 3. Získáme nejnovější stav větve main ze serveru (zamezí jakémukoliv předbíhání)
+          # 3. Získáme nejnovější stav větve main ze serveru
           git fetch origin main
           git reset --hard origin/main
           
