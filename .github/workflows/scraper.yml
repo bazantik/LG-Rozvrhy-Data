@@ -69,5 +69,5 @@ jobs:
             echo "Data na serveru jsou již identická s vygenerovanými."
           else
             git commit -m "Automatická aktualizace rozvrhu"
-            git push origin main
+            git push origin HEAD:main
           fi
