@@ -46,21 +46,18 @@ async def scrape_bakalari():
                 class_url = f"{BASE_URL}/{week}/Class/{cls['id']}"
                 await page.goto(class_url, timeout=60000, wait_until="domcontentloaded")
                 
-                # 1. BEZPEČNÉ VYTAŽENÍ SVÁTKŮ A VOLNÝCH DNŮ (v try/except)
+                # 1. BEZPEČNÉ VYTAŽENÍ SVÁTKŮ A VOLNÝCH DNŮ
                 try:
                     day_offs = await page.evaluate('''() => {
                         const results = [];
-                        // Najdeme řádky dnů v rozvrhu
                         const dayRows = document.querySelectorAll('.bk-timetable-days-wrapper .bk-timetable-row');
                         
                         dayRows.forEach((row, index) => {
-                            // Hledáme buňku volna uvnitř řádku dne
                             const dayOffContent = row.querySelector('.dayoff-content');
                             if (dayOffContent) {
                                 const nameEl = dayOffContent.querySelector('.dayoff-name');
                                 const name = nameEl ? nameEl.innerText.trim() : "Volno";
                                 
-                                // Index řádku 0..4 přímo odpovídá Pondělí až Pátek:
                                 if (index >= 0 && index < 5) {
                                     results.push({ dayIndex: index, name: name });
                                 }
@@ -132,16 +129,32 @@ async def scrape_bakalari():
 
         # OCHRANA: Uložíme jen tehdy, pokud jsme stáhli data alespoň pro 10 učitelů
         if len(teachers_data) > 10:
-            timestamp_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-            
-            export_data = {
-                "last_updated": timestamp_iso,
-                "days_off": days_off_data,
-                "teachers": teachers_data
-            }
-            with open("ucitele.json", "w", encoding="utf-8") as f:
-                json.dump(export_data, f, ensure_ascii=False, indent=4)
-            print("Úspěšně hotovo! Data uložena.")
+            should_save = True
+
+            # Ověříme, zda se rozvrh skutečně liší od stávajícího souboru na disku
+            if os.path.exists("ucitele.json"):
+                try:
+                    with open("ucitele.json", "r", encoding="utf-8") as existing_file:
+                        old_json = json.load(existing_file)
+                        old_teachers = old_json.get("teachers", {})
+                        old_days_off = old_json.get("days_off", {})
+
+                        if old_teachers == teachers_data and old_days_off == days_off_data:
+                            should_save = False
+                            print("ℹ️ Data rozvrhu jsou identická. Soubor ucitele.json nebude přepsán.")
+                except Exception as e:
+                    print(f"Varování: Nelze přečíst stávající soubor: {e}")
+
+            if should_save:
+                timestamp_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                export_data = {
+                    "last_updated": timestamp_iso,
+                    "days_off": days_off_data,
+                    "teachers": teachers_data
+                }
+                with open("ucitele.json", "w", encoding="utf-8") as f:
+                    json.dump(export_data, f, ensure_ascii=False, indent=4)
+                print("Úspěšně hotovo! Byla detekována změna a nová data byla uložena.")
         else:
             print("CHYBA: Staženo příliš málo dat. JSON nebyl přepsán!")
 
