@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-23T11:27:47Z",
+    "last_updated": "2026-09-23T12:39:57Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -7885,30 +7885,6 @@
                 "day": "22.9.2026 (úterý)",
                 "time": "3 (9:30 - 10:15)",
                 "group": "Vytv - výtvarníci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "HV",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "Hud - hudebníci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "HV",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "7 (13:10 - 13:55)",
-                "group": "Hud - hudebníci"
             },
             {
                 "week": "Next",
