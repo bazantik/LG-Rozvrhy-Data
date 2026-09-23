@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-23T08:36:40Z",
+    "last_updated": "2026-09-23T09:31:25Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -7554,8 +7554,8 @@
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
                 "teacher_abbrev": "KB",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
+                "room": "1S - kmenová třídy 1.S (1.patro)",
+                "room_abbrev": "1S",
                 "day": "25.9.2026 (pátek)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "N - němčináři"
@@ -9789,6 +9789,30 @@
                 "day": "24.9.2026 (čtvrtek)",
                 "time": "8:30 - 9:15",
                 "group": "SAj1 - Seminář z Aj 1.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "3.A",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "MA",
+                "room": "3A - kmenová třídy 3.A (2.patro)",
+                "room_abbrev": "3A",
+                "day": "25.9.2026 (pátek)",
+                "time": "2 (8:35 - 9:20)",
+                "group": "N - němčináři"
+            },
+            {
+                "week": "Actual",
+                "class_name": "3.A",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "MA",
+                "room": "J3 - jazyková Aj (3.patro)",
+                "room_abbrev": "J3",
+                "day": "25.9.2026 (pátek)",
+                "time": "4 (10:35 - 11:20)",
+                "group": "F - francouštináři"
             },
             {
                 "week": "Actual",
@@ -18494,10 +18518,10 @@
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
                 "teacher_abbrev": "UR",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
+                "room": "J1 - jazyková Nj (přízemí)",
+                "room_abbrev": "J1",
                 "day": "25.9.2026 (pátek)",
-                "time": "2 (8:35 - 9:20)",
+                "time": "4 (10:35 - 11:20)",
                 "group": "N - němčináři"
             },
             {
@@ -19497,18 +19521,6 @@
                 "room": "3A - kmenová třídy 3.A (2.patro)",
                 "room_abbrev": "3A",
                 "day": "22.9.2026 (úterý)",
-                "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "SK",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "25.9.2026 (pátek)",
                 "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
