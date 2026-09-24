@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-23T22:25:01Z",
+    "last_updated": "2026-09-24T05:29:40Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -3328,18 +3328,6 @@
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
                 "teacher_abbrev": "HL",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HL",
                 "room": "J4 - jazyková Aj (3.patro)",
                 "room_abbrev": "J4",
                 "day": "25.9.2026 (pátek)",
@@ -3445,54 +3433,6 @@
             {
                 "week": "Actual",
                 "class_name": "4.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HL",
-                "room": "uVv - výtvarná výchova (1.patro)",
-                "room_abbrev": "uVv",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HL",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Seminář z anglického jazyka",
-                "subject_abbrev": "Ajs",
-                "teacher_abbrev": "HL",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SAj3 - Seminář z Aj 3.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Seminář z anglického jazyka",
-                "subject_abbrev": "Ajs",
-                "teacher_abbrev": "HL",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "13:05 - 13:50",
-                "group": "SAj3 - Seminář z Aj 3.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
                 "subject": "Seminář z anglického jazyka",
                 "subject_abbrev": "Ajs",
                 "teacher_abbrev": "HL",
@@ -3537,30 +3477,6 @@
                 "day": "22.9.2026 (úterý)",
                 "time": "12:55 - 13:40",
                 "group": "SAj2 - Seminář z Aj 2.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Seminář z anglického jazyka",
-                "subject_abbrev": "Ajs",
-                "teacher_abbrev": "HL",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SAj3 - Seminář z Aj 3.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Seminář z anglického jazyka",
-                "subject_abbrev": "Ajs",
-                "teacher_abbrev": "HL",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "13:05 - 13:50",
-                "group": "SAj3 - Seminář z Aj 3.sk."
             },
             {
                 "week": "Actual",
@@ -3624,18 +3540,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HL",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "6.C",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -3669,30 +3573,6 @@
                 "day": "22.9.2026 (úterý)",
                 "time": "12:55 - 13:40",
                 "group": "SAj2 - Seminář z Aj 2.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Seminář z anglického jazyka",
-                "subject_abbrev": "Ajs",
-                "teacher_abbrev": "HL",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SAj3 - Seminář z Aj 3.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Seminář z anglického jazyka",
-                "subject_abbrev": "Ajs",
-                "teacher_abbrev": "HL",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "24.9.2026 (čtvrtek)",
-                "time": "13:05 - 13:50",
-                "group": "SAj3 - Seminář z Aj 3.sk."
             },
             {
                 "week": "Actual",
@@ -4427,6 +4307,18 @@
                 "day": "21.9.2026 (pondělí)",
                 "time": "15:15 - 16:00",
                 "group": "Ajgr - Anglická gramatika"
+            },
+            {
+                "week": "Actual",
+                "class_name": "5.C",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "KR",
+                "room": "J1 - jazyková Nj (přízemí)",
+                "room_abbrev": "J1",
+                "day": "24.9.2026 (čtvrtek)",
+                "time": "4 (10:35 - 11:20)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -5739,8 +5631,8 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "24.9.2026 (čtvrtek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "2-sk - 2.skupina"
+                "time": "6 (12:20 - 13:05)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Actual",
@@ -5751,8 +5643,8 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "24.9.2026 (čtvrtek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "1-sk - 1.skupina"
+                "time": "5 (11:30 - 12:15)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Actual",
@@ -10034,6 +9926,18 @@
             },
             {
                 "week": "Actual",
+                "class_name": "4.A",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "VM",
+                "room": "uVv - výtvarná výchova (1.patro)",
+                "room_abbrev": "uVv",
+                "day": "24.9.2026 (čtvrtek)",
+                "time": "2 (8:35 - 9:20)",
+                "group": "F - francouštináři"
+            },
+            {
+                "week": "Actual",
                 "class_name": "4.B",
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
@@ -11055,6 +10959,18 @@
                 "day": "24.9.2026 (čtvrtek)",
                 "time": "6 (12:20 - 13:05)",
                 "group": "A2 - angličtináři sk.2"
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.A",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "DO",
+                "room": "J3 - jazyková Aj (3.patro)",
+                "room_abbrev": "J3",
+                "day": "24.9.2026 (čtvrtek)",
+                "time": "3 (9:30 - 10:15)",
+                "group": "N - němčináři"
             },
             {
                 "week": "Next",
