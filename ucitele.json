@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-24T13:29:32Z",
+    "last_updated": "2026-09-24T15:28:18Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -1290,6 +1290,18 @@
                 "subject": "Matematika",
                 "subject_abbrev": "M",
                 "teacher_abbrev": "JO",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
+                "day": "29.9.2026 (úterý)",
+                "time": "5 (11:30 - 12:15)",
+                "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "6.C",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "JO",
                 "room": "3A - kmenová třídy 3.A (2.patro)",
                 "room_abbrev": "3A",
                 "day": "30.9.2026 (středa)",
@@ -2175,6 +2187,18 @@
                 "day": "1.10.2026 (čtvrtek)",
                 "time": "9 (14:45 - 15:30)",
                 "group": "Vytv - výtvarníci"
+            },
+            {
+                "week": "Next",
+                "class_name": "4.A",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "MJ",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
+                "day": "29.9.2026 (úterý)",
+                "time": "3 (9:30 - 10:15)",
+                "group": ""
             },
             {
                 "week": "Next",
@@ -7017,6 +7041,18 @@
                 "day": "2.10.2026 (pátek)",
                 "time": "1 (7:45 - 8:30)",
                 "group": "F - francouštináři"
+            },
+            {
+                "week": "Next",
+                "class_name": "6.C",
+                "subject": "Německý jazyk",
+                "subject_abbrev": "Nj",
+                "teacher_abbrev": "MV",
+                "room": "J1 - jazyková Nj (přízemí)",
+                "room_abbrev": "J1",
+                "day": "29.9.2026 (úterý)",
+                "time": "4 (10:35 - 11:20)",
+                "group": "N2 - němčináři sk.2"
             }
         ],
         "Milan Kouba": [
@@ -7391,18 +7427,6 @@
                 "day": "1.10.2026 (čtvrtek)",
                 "time": "6 (12:20 - 13:05)",
                 "group": "N2 - němčináři 2.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "5.C",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "KB",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
-                "day": "29.9.2026 (úterý)",
-                "time": "7 (13:10 - 13:55)",
-                "group": "N - němčináři"
             },
             {
                 "week": "Next",
@@ -9688,18 +9712,6 @@
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
                 "teacher_abbrev": "MA",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "29.9.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "A2 - angličtináři sk.2"
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
                 "room": "2A - kmenová třídy 2.A (1.patro)",
                 "room_abbrev": "2A",
                 "day": "30.9.2026 (středa)",
@@ -10067,30 +10079,6 @@
                 "day": "2.10.2026 (pátek)",
                 "time": "1 (7:45 - 8:30)",
                 "group": "N2 - němčináři 2.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "VM",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
-                "day": "29.9.2026 (úterý)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "N2 - němčináři sk.2"
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "VM",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
-                "day": "29.9.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "N1 - němčináři sk.1"
             },
             {
                 "week": "Next",
@@ -10947,42 +10935,6 @@
                 "day": "2.10.2026 (pátek)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "DO",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "29.9.2026 (úterý)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "A1 - angličtináři sk.1"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.C",
-                "subject": "Výtvarná výchova",
-                "subject_abbrev": "Vv",
-                "teacher_abbrev": "DO",
-                "room": "uVv - výtvarná výchova (1.patro)",
-                "room_abbrev": "uVv",
-                "day": "29.9.2026 (úterý)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "Vytv - výtvarníci"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.C",
-                "subject": "Výtvarná výchova",
-                "subject_abbrev": "Vv",
-                "teacher_abbrev": "DO",
-                "room": "uVv - výtvarná výchova (1.patro)",
-                "room_abbrev": "uVv",
-                "day": "29.9.2026 (úterý)",
-                "time": "7 (13:10 - 13:55)",
-                "group": "Vytv - výtvarníci"
             },
             {
                 "week": "Next",
@@ -12462,18 +12414,6 @@
                 "teacher_abbrev": "FN",
                 "room": "J2 - jazyková Fj (1.patro)",
                 "room_abbrev": "J2",
-                "day": "29.9.2026 (úterý)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.C",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "FN",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
                 "day": "1.10.2026 (čtvrtek)",
                 "time": "5 (11:30 - 12:15)",
                 "group": "F - francouštináři"
@@ -12501,18 +12441,6 @@
                 "day": "30.9.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
                 "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "5.C",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "FN",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "29.9.2026 (úterý)",
-                "time": "7 (13:10 - 13:55)",
-                "group": "F - francouštináři"
             },
             {
                 "week": "Next",
@@ -16102,18 +16030,6 @@
             },
             {
                 "week": "Next",
-                "class_name": "4.A",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "BM",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "29.9.2026 (úterý)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Next",
                 "class_name": "4.C",
                 "subject": "Základy společenských věd",
                 "subject_abbrev": "Zsv",
@@ -16956,6 +16872,18 @@
                 "room_abbrev": "3A",
                 "day": "1.10.2026 (čtvrtek)",
                 "time": "6 (12:20 - 13:05)",
+                "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "3.C",
+                "subject": "Geografie",
+                "subject_abbrev": "Geo",
+                "teacher_abbrev": "ŠP",
+                "room": "3C - kmenová třídy 3.C (2.patro)",
+                "room_abbrev": "3C",
+                "day": "29.9.2026 (úterý)",
+                "time": "3 (9:30 - 10:15)",
                 "group": ""
             },
             {
