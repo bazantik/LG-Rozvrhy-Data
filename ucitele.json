@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-24T09:31:46Z",
+    "last_updated": "2026-09-24T10:30:10Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -5679,7 +5679,7 @@
                 "room": "uHv - hudební výchova (2.patro)",
                 "room_abbrev": "uHv",
                 "day": "25.9.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
+                "time": "4 (10:35 - 11:20)",
                 "group": "Hud - hudebníci"
             },
             {
@@ -5691,7 +5691,7 @@
                 "room": "uHv - hudební výchova (2.patro)",
                 "room_abbrev": "uHv",
                 "day": "25.9.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "5 (11:30 - 12:15)",
                 "group": "Hud - hudebníci"
             },
             {
@@ -7513,30 +7513,6 @@
                 "day": "24.9.2026 (čtvrtek)",
                 "time": "3 (9:30 - 10:15)",
                 "group": "Hud - hudebníci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "HV",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "25.9.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "Vytv - výtvarníci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "HV",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "25.9.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "Vytv - výtvarníci"
             },
             {
                 "week": "Actual",
@@ -10719,6 +10695,18 @@
                 "day": "24.9.2026 (čtvrtek)",
                 "time": "1 (7:45 - 8:30)",
                 "group": "2-sk - 2.skupina"
+            },
+            {
+                "week": "Actual",
+                "class_name": "2.A",
+                "subject": "Informatika",
+                "subject_abbrev": "Inf",
+                "teacher_abbrev": "DO",
+                "room": "vt2 - výpočetní technika (3.patro)",
+                "room_abbrev": "vt2",
+                "day": "25.9.2026 (pátek)",
+                "time": "4 (10:35 - 11:20)",
+                "group": "Vytv - výtvarníci"
             },
             {
                 "week": "Actual",
