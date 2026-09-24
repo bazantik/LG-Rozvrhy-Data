@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-24T12:40:53Z",
+    "last_updated": "2026-09-24T13:29:32Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -319,18 +319,6 @@
                 "day": "2.10.2026 (pátek)",
                 "time": "5 (11:30 - 12:15)",
                 "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Next",
-                "class_name": "2.C",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "EL",
-                "room": "2C - kmenová třídy 2.C (1.patro)",
-                "room_abbrev": "2C",
-                "day": "29.9.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "N1 - němčináři 1.sk."
             },
             {
                 "week": "Next",
@@ -2078,6 +2066,18 @@
                 "room_abbrev": "1B",
                 "day": "1.10.2026 (čtvrtek)",
                 "time": "4 (10:35 - 11:20)",
+                "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "2.C",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "MJ",
+                "room": "2C - kmenová třídy 2.C (1.patro)",
+                "room_abbrev": "2C",
+                "day": "29.9.2026 (úterý)",
+                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -7374,18 +7374,6 @@
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
                 "teacher_abbrev": "KB",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "29.9.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "N2 - němčináři 2.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "2.C",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "KB",
                 "room": "2C - kmenová třídy 2.C (1.patro)",
                 "room_abbrev": "2C",
                 "day": "30.9.2026 (středa)",
@@ -9031,6 +9019,18 @@
                 "day": "29.9.2026 (úterý)",
                 "time": "2 (8:35 - 9:20)",
                 "group": "Chl - chlapci"
+            },
+            {
+                "week": "Next",
+                "class_name": "3.B",
+                "subject": "Třídnická hodina",
+                "subject_abbrev": "Th",
+                "teacher_abbrev": "VE",
+                "room": "3B - kmenová třídy 3.B (2.patro)",
+                "room_abbrev": "3B",
+                "day": "29.9.2026 (úterý)",
+                "time": "4 (10:35 - 11:20)",
+                "group": ""
             },
             {
                 "week": "Next",
@@ -12354,18 +12354,6 @@
                 "teacher_abbrev": "FN",
                 "room": "J2 - jazyková Fj (1.patro)",
                 "room_abbrev": "J2",
-                "day": "29.9.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Next",
-                "class_name": "2.C",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "FN",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
                 "day": "30.9.2026 (středa)",
                 "time": "1 (7:45 - 8:30)",
                 "group": "F - francouštináři"
@@ -12427,18 +12415,6 @@
                 "room": "2A - kmenová třídy 2.A (1.patro)",
                 "room_abbrev": "2A",
                 "day": "2.10.2026 (pátek)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.B",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "FN",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
-                "day": "29.9.2026 (úterý)",
                 "time": "2 (8:35 - 9:20)",
                 "group": "F - francouštináři"
             },
@@ -13126,6 +13102,18 @@
                 "room_abbrev": "3A",
                 "day": "2.10.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
+                "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "3.B",
+                "subject": "Chemie",
+                "subject_abbrev": "Ch",
+                "teacher_abbrev": "KO",
+                "room": "3B - kmenová třídy 3.B (2.patro)",
+                "room_abbrev": "3B",
+                "day": "29.9.2026 (úterý)",
+                "time": "2 (8:35 - 9:20)",
                 "group": ""
             },
             {
@@ -16055,18 +16043,6 @@
             {
                 "week": "Next",
                 "class_name": "3.B",
-                "subject": "Základy společenských věd",
-                "subject_abbrev": "Zsv",
-                "teacher_abbrev": "BM",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
-                "day": "29.9.2026 (úterý)",
-                "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "3.B",
                 "subject": "Dějepis",
                 "subject_abbrev": "D",
                 "teacher_abbrev": "BM",
@@ -17850,18 +17826,6 @@
                 "room_abbrev": "J1",
                 "day": "2.10.2026 (pátek)",
                 "time": "4 (10:35 - 11:20)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.B",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "UR",
-                "room": "1S - kmenová třídy 1.S (1.patro)",
-                "room_abbrev": "1S",
-                "day": "29.9.2026 (úterý)",
-                "time": "2 (8:35 - 9:20)",
                 "group": "N - němčináři"
             },
             {
