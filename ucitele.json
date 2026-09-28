@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-28T07:00:13Z",
+    "last_updated": "2026-09-28T07:47:38Z",
     "days_off": {
         "Actual": {
             "0": "Den české státnosti"
@@ -1916,10 +1916,10 @@
                 "subject": "Fyzika",
                 "subject_abbrev": "F",
                 "teacher_abbrev": "ZI",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
+                "room": "3A - kmenová třídy 3.A (2.patro)",
+                "room_abbrev": "3A",
                 "day": "29.9.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
+                "time": "2 (8:35 - 9:20)",
                 "group": ""
             },
             {
@@ -8545,7 +8545,7 @@
                 "room": "3B - kmenová třídy 3.B (2.patro)",
                 "room_abbrev": "3B",
                 "day": "29.9.2026 (úterý)",
-                "time": "7 (13:10 - 13:55)",
+                "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
             {
@@ -9485,7 +9485,7 @@
                 "room": "3A - kmenová třídy 3.A (2.patro)",
                 "room_abbrev": "3A",
                 "day": "29.9.2026 (úterý)",
-                "time": "2 (8:35 - 9:20)",
+                "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
             {
@@ -9527,6 +9527,18 @@
             {
                 "week": "Actual",
                 "class_name": "3.B",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "VK",
+                "room": "3B - kmenová třídy 3.B (2.patro)",
+                "room_abbrev": "3B",
+                "day": "29.9.2026 (úterý)",
+                "time": "2 (8:35 - 9:20)",
+                "group": ""
+            },
+            {
+                "week": "Actual",
+                "class_name": "3.B",
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
                 "teacher_abbrev": "VK",
@@ -9534,18 +9546,6 @@
                 "room_abbrev": "uB-C",
                 "day": "29.9.2026 (úterý)",
                 "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VK",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
-                "day": "29.9.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
             {
@@ -10239,6 +10239,18 @@
             {
                 "week": "Actual",
                 "class_name": "5.C",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "VA",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
+                "day": "29.9.2026 (úterý)",
+                "time": "1 (7:45 - 8:30)",
+                "group": ""
+            },
+            {
+                "week": "Actual",
+                "class_name": "5.C",
                 "subject": "Fyzika",
                 "subject_abbrev": "F",
                 "teacher_abbrev": "VA",
@@ -10246,18 +10258,6 @@
                 "room_abbrev": "4C",
                 "day": "29.9.2026 (úterý)",
                 "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VA",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "29.9.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
             {
@@ -12680,18 +12680,6 @@
                 "room_abbrev": "3A",
                 "day": "2.10.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Chemie",
-                "subject_abbrev": "Ch",
-                "teacher_abbrev": "KO",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
-                "day": "29.9.2026 (úterý)",
-                "time": "2 (8:35 - 9:20)",
                 "group": ""
             },
             {
