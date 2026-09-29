@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-29T05:31:43Z",
+    "last_updated": "2026-09-29T06:47:53Z",
     "days_off": {
         "Actual": {
             "0": "Den české státnosti"
@@ -4341,6 +4341,18 @@
                 "day": "29.9.2026 (úterý)",
                 "time": "13:05 - 13:50",
                 "group": "Chl - chlapci"
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.C",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "KŽ",
+                "room": "sál - sportovní sál",
+                "room_abbrev": "sál",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "12:15 - 13:00",
+                "group": "Dív - dívky"
             },
             {
                 "week": "Next",
@@ -17490,6 +17502,18 @@
                 "room_abbrev": "sál",
                 "day": "30.9.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
+                "group": "Chl - chlapci"
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.C",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "ŠI",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "12:15 - 13:00",
                 "group": "Chl - chlapci"
             },
             {
