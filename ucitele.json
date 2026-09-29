@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-29T11:29:20Z",
+    "last_updated": "2026-09-29T12:44:25Z",
     "days_off": {
         "Actual": {
             "0": "Den české státnosti"
@@ -1920,18 +1920,6 @@
                 "room_abbrev": "3A",
                 "day": "29.9.2026 (úterý)",
                 "time": "2 (8:35 - 9:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Fyzika",
-                "subject_abbrev": "F",
-                "teacher_abbrev": "ZI",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "7 (13:10 - 13:55)",
                 "group": ""
             },
             {
@@ -8304,30 +8292,6 @@
                 "teacher_abbrev": "ZH",
                 "room": "3A - kmenová třídy 3.A (2.patro)",
                 "room_abbrev": "3A",
-                "day": "30.9.2026 (středa)",
-                "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
                 "day": "2.10.2026 (pátek)",
                 "time": "1 (7:45 - 8:30)",
                 "group": ""
@@ -8402,6 +8366,18 @@
                 "room_abbrev": "uD-Z",
                 "day": "2.10.2026 (pátek)",
                 "time": "3 (9:30 - 10:15)",
+                "group": ""
+            },
+            {
+                "week": "Actual",
+                "class_name": "5.C",
+                "subject": "Český jazyk a literatura",
+                "subject_abbrev": "Čj",
+                "teacher_abbrev": "ZH",
+                "room": "4C - kmenová třídy 4.C (2.patro)",
+                "room_abbrev": "4C",
+                "day": "30.9.2026 (středa)",
+                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -9234,42 +9210,6 @@
                 "room_abbrev": "3A",
                 "day": "29.9.2026 (úterý)",
                 "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "VK",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "30.9.2026 (středa)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VK",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "30.9.2026 (středa)",
-                "time": "2 (8:35 - 9:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VK",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -10357,54 +10297,6 @@
                 "day": "2.10.2026 (pátek)",
                 "time": "9:40 - 10:25",
                 "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "30.9.2026 (středa)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "30.9.2026 (středa)",
-                "time": "7 (13:10 - 13:55)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "F - francouštináři"
             },
             {
                 "week": "Actual",
@@ -11981,18 +11873,6 @@
                 "room": "uB-C - kmenová třídy 5.C (2.patro)",
                 "room_abbrev": "uB-C",
                 "day": "2.10.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Chemie",
-                "subject_abbrev": "Ch",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "30.9.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
@@ -13736,18 +13616,6 @@
                 "room_abbrev": "2B",
                 "day": "30.9.2026 (středa)",
                 "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Základy společenských věd",
-                "subject_abbrev": "Zsv",
-                "teacher_abbrev": "BM",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "30.9.2026 (středa)",
-                "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
             {
@@ -18382,18 +18250,6 @@
                 "room_abbrev": "2A",
                 "day": "30.9.2026 (středa)",
                 "time": "2 (8:35 - 9:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "HE",
-                "room": "4C - kmenová třídy 4.C (2.patro)",
-                "room_abbrev": "4C",
-                "day": "30.9.2026 (středa)",
-                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
