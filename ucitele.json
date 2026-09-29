@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-29T08:39:38Z",
+    "last_updated": "2026-09-29T09:34:52Z",
     "days_off": {
         "Actual": {
             "0": "Den české státnosti"
@@ -18979,30 +18979,6 @@
             {
                 "week": "Actual",
                 "class_name": "4.B",
-                "subject": "Genetika",
-                "subject_abbrev": "Gen",
-                "teacher_abbrev": "BN",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "Gen1 - Genetika 1.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Genetika",
-                "subject_abbrev": "Gen",
-                "teacher_abbrev": "BN",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "11:20 - 12:05",
-                "group": "Gen1 - Genetika 1.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
                 "subject": "Seminář z biologie",
                 "subject_abbrev": "Bis",
                 "teacher_abbrev": "BN",
@@ -19023,6 +18999,30 @@
                 "day": "1.10.2026 (čtvrtek)",
                 "time": "13:05 - 13:50",
                 "group": "SBi2 - Seminář z biologie 2.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.B",
+                "subject": "Genetika",
+                "subject_abbrev": "Gen",
+                "teacher_abbrev": "BN",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "4 (10:35 - 11:20)",
+                "group": "Gen1 - Genetika 1.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.B",
+                "subject": "Genetika",
+                "subject_abbrev": "Gen",
+                "teacher_abbrev": "BN",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "11:20 - 12:05",
+                "group": "Gen1 - Genetika 1.sk."
             },
             {
                 "week": "Actual",
@@ -19652,6 +19652,78 @@
             }
         ],
         "Mgr. Miloš Chlumský": [
+            {
+                "week": "Actual",
+                "class_name": "4.A",
+                "subject": "Společenskovědní seminář",
+                "subject_abbrev": "Sp",
+                "teacher_abbrev": "CH",
+                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
+                "room_abbrev": "uD-Z",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "6 (12:20 - 13:05)",
+                "group": "SSp2 - Společenskovědní seminář 2.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.A",
+                "subject": "Společenskovědní seminář",
+                "subject_abbrev": "Sp",
+                "teacher_abbrev": "CH",
+                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
+                "room_abbrev": "uD-Z",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "13:05 - 13:50",
+                "group": "SSp2 - Společenskovědní seminář 2.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.B",
+                "subject": "Společenskovědní seminář",
+                "subject_abbrev": "Sp",
+                "teacher_abbrev": "CH",
+                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
+                "room_abbrev": "uD-Z",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "6 (12:20 - 13:05)",
+                "group": "SSp2 - Společenskovědní seminář 2.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.B",
+                "subject": "Společenskovědní seminář",
+                "subject_abbrev": "Sp",
+                "teacher_abbrev": "CH",
+                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
+                "room_abbrev": "uD-Z",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "13:05 - 13:50",
+                "group": "SSp2 - Společenskovědní seminář 2.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "6.C",
+                "subject": "Společenskovědní seminář",
+                "subject_abbrev": "Sp",
+                "teacher_abbrev": "CH",
+                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
+                "room_abbrev": "uD-Z",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "6 (12:20 - 13:05)",
+                "group": "SSp2 - Společenskovědní seminář 2.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "6.C",
+                "subject": "Společenskovědní seminář",
+                "subject_abbrev": "Sp",
+                "teacher_abbrev": "CH",
+                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
+                "room_abbrev": "uD-Z",
+                "day": "1.10.2026 (čtvrtek)",
+                "time": "13:05 - 13:50",
+                "group": "SSp2 - Společenskovědní seminář 2.sk."
+            },
             {
                 "week": "Next",
                 "class_name": "4.A",
