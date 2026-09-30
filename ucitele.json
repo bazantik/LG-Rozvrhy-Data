@@ -1,8 +1,118 @@
 {
-    "last_updated": "2026-09-30T17:27:35Z",
+    "last_updated": "2026-09-30T17:42:54Z",
     "days_off": {
         "Actual": {
             "0": "Den české státnosti"
+        },
+        "Next": {}
+    },
+    "events": {
+        "Actual": {
+            "2.A": [
+                {
+                    "day_index": 1,
+                    "day_abbrev": "Út",
+                    "date": "29.9.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "29.9.2026 (úterý)",
+                    "time": "7:45 - 15:30"
+                },
+                {
+                    "day_index": 2,
+                    "day_abbrev": "St",
+                    "date": "30.9.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "30.9.2026 (středa)",
+                    "time": "7:45 - 16:15"
+                },
+                {
+                    "day_index": 3,
+                    "day_abbrev": "Čt",
+                    "date": "1.10.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "1.10.2026 (čtvrtek)",
+                    "time": "7:45 - 16:15"
+                },
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "2.10.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "2.10.2026 (pátek)",
+                    "time": "7:45 - 16:15"
+                }
+            ],
+            "3.A": [
+                {
+                    "day_index": 2,
+                    "day_abbrev": "St",
+                    "date": "30.9.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "30.9.2026 (středa)",
+                    "time": "7:45 - 13:55"
+                },
+                {
+                    "day_index": 3,
+                    "day_abbrev": "Čt",
+                    "date": "1.10.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "1.10.2026 (čtvrtek)",
+                    "time": "9:30 - 13:55"
+                },
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "2.10.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "2.10.2026 (pátek)",
+                    "time": "7:45 - 13:05"
+                }
+            ],
+            "4.C": [
+                {
+                    "day_index": 1,
+                    "day_abbrev": "Út",
+                    "date": "29.9.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "29.9.2026 (úterý)",
+                    "time": "7:00 - 16:15"
+                },
+                {
+                    "day_index": 2,
+                    "day_abbrev": "St",
+                    "date": "30.9.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "30.9.2026 (středa)",
+                    "time": "7:00 - 16:15"
+                },
+                {
+                    "day_index": 3,
+                    "day_abbrev": "Čt",
+                    "date": "1.10.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "1.10.2026 (čtvrtek)",
+                    "time": "7:00 - 16:15"
+                },
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "2.10.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "2.10.2026 (pátek)",
+                    "time": "7:00 - 16:15"
+                }
+            ]
         },
         "Next": {}
     },
