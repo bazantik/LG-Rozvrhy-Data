@@ -31,19 +31,21 @@ async def scrape_bakalari():
 
         teachers_data = {}
         days_off_data = {"Actual": {}, "Next": {}}
+        events_data = {"Actual": {}, "Next": {}}
         weeks = ["Actual", "Next"]
 
         for week in weeks:
             print(f"\n--- Stahuji data pro týden: {week} ---")
             for cls in classes:
-                print(f"Zpracovávám třídu: {cls['name'].strip()} ({week})")
+                class_name = cls['name'].strip()
+                print(f"Zpracovávám třídu: {class_name} ({week})")
                 
                 await asyncio.sleep(1)
                 
                 class_url = f"{BASE_URL}/{week}/Class/{cls['id']}"
                 await page.goto(class_url, timeout=60000, wait_until="domcontentloaded")
                 
-                # 1. Svatky a dny volna
+                # 1. Celodenní dny volna / státní svátky
                 try:
                     day_offs = await page.evaluate('''() => {
                         const results = [];
@@ -71,7 +73,73 @@ async def scrape_bakalari():
                 except Exception:
                     pass
 
-                # 2. Vytažení vyučovacích hodin
+                # 2. Třídní a školní akce (absence třídy – exkurze, kurzy, atd.)
+                try:
+                    class_events = await page.evaluate('''() => {
+                        const results = [];
+                        const rows = document.querySelectorAll('.bk-timetable-days-wrapper .bk-timetable-row');
+                        
+                        rows.forEach((row, index) => {
+                            // Zpracováváme pouze Po-Pá (0..4)
+                            if (index < 0 || index >= 5) return;
+
+                            const dayAbbrev = row.querySelector('.bk-day-day')?.innerText.trim() || "";
+                            const date = row.querySelector('.bk-day-date')?.innerText.trim() || "";
+                            
+                            const absences = row.querySelectorAll('.bk-timetable-absence');
+                            absences.forEach(abs => {
+                                const detailStr = abs.getAttribute('data-detail');
+                                let type = "";
+                                let description = "";
+                                let time = "";
+                                let day = "";
+
+                                if (detailStr) {
+                                    try {
+                                        const detail = JSON.parse(detailStr);
+                                        type = detail.absentinfo || detail.type || "";
+                                        description = detail.removedinfo || detail.Name || detail.description || "";
+                                        time = detail.time || "";
+                                        day = detail.day || "";
+                                    } catch (e) {}
+                                }
+
+                                // Fallback: Pokud v data-detail chybí popis, vytáhneme viditelný text z HTML
+                                if (!description) {
+                                    const textNode = abs.querySelector('.absence-info') || abs.querySelector('.middle') || abs;
+                                    description = textNode ? textNode.innerText.replace(/\\s+/g, ' ').trim() : "Mimo školu";
+                                }
+
+                                if (!type) {
+                                    type = "Akce";
+                                }
+
+                                results.push({
+                                    day_index: index,
+                                    day_abbrev: dayAbbrev,
+                                    date: date,
+                                    type: type,
+                                    description: description,
+                                    day: day,
+                                    time: time
+                                });
+                            });
+                        });
+                        return results;
+                    }''')
+
+                    for ev in class_events:
+                        if class_name not in events_data[week]:
+                            events_data[week][class_name] = []
+                        
+                        # Kontrola proti duplicitám
+                        if ev not in events_data[week][class_name]:
+                            events_data[week][class_name].append(ev)
+                            print(f"📌 Nalezena akce ({week}, {class_name}): {ev['description']} ({ev['date']} {ev['time']})")
+                except Exception:
+                    pass
+
+                # 3. Standardní vyučovací hodiny
                 try:
                     await page.wait_for_selector('.day-item-hover', timeout=3000)
                 except Exception:
@@ -111,7 +179,7 @@ async def scrape_bakalari():
                         
                         teachers_data[teacher].append({
                             "week": week,
-                            "class_name": cls['name'].strip(),
+                            "class_name": class_name,
                             "subject": detail.get("subjecttext", ""),
                             "subject_abbrev": detail.get("subject_abbrev", ""),
                             "teacher_abbrev": detail.get("teacher_abbrev", ""),
@@ -124,17 +192,18 @@ async def scrape_bakalari():
 
         await browser.close()
 
-        # Uložíme VŽDY nový soubor s čerstvým časem, pokud jsou data validní
+        # Uložení dat
         if len(teachers_data) > 10:
             timestamp_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             export_data = {
                 "last_updated": timestamp_iso,
                 "days_off": days_off_data,
+                "events": events_data,
                 "teachers": teachers_data
             }
             with open("ucitele.json", "w", encoding="utf-8") as f:
                 json.dump(export_data, f, ensure_ascii=False, indent=4)
-            print(f"Úspěšně hotovo! Data uložena k času: {timestamp_iso}")
+            print(f"\nÚspěšně hotovo! Data uložena k času: {timestamp_iso}")
         else:
             print("CHYBA: Staženo příliš málo dat. JSON nebyl přepsán!")
 
