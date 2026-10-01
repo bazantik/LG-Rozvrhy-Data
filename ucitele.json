@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-30T22:29:03Z",
+    "last_updated": "2026-10-01T06:48:43Z",
     "days_off": {
         "Actual": {
             "0": "Den české státnosti"
@@ -9277,50 +9277,26 @@
             {
                 "week": "Actual",
                 "class_name": "2.B",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "HV",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "Hud - hudebníci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "HV",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "1.10.2026 (čtvrtek)",
-                "time": "7 (13:10 - 13:55)",
-                "group": "Hud - hudebníci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
+                "subject": "Informatika a výp. technika",
+                "subject_abbrev": "Iv",
                 "teacher_abbrev": "HV",
                 "room": "vt2 - výpočetní technika (3.patro)",
                 "room_abbrev": "vt2",
                 "day": "2.10.2026 (pátek)",
                 "time": "5 (11:30 - 12:15)",
-                "group": "Vytv - výtvarníci"
+                "group": ""
             },
             {
                 "week": "Actual",
                 "class_name": "2.B",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
+                "subject": "Informatika a výp. technika",
+                "subject_abbrev": "Iv",
                 "teacher_abbrev": "HV",
                 "room": "vt2 - výpočetní technika (3.patro)",
                 "room_abbrev": "vt2",
                 "day": "2.10.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
-                "group": "Vytv - výtvarníci"
+                "group": ""
             },
             {
                 "week": "Next",
