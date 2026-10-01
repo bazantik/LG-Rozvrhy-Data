@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-01T17:27:11Z",
+    "last_updated": "2026-10-01T19:26:16Z",
     "days_off": {
         "Actual": {
             "0": "Den české státnosti"
@@ -7117,6 +7117,18 @@
                 "group": "2-sk - 2.skupina"
             },
             {
+                "week": "Actual",
+                "class_name": "5.C",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "KN",
+                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
+                "room_abbrev": "uD-Z",
+                "day": "2.10.2026 (pátek)",
+                "time": "4 (10:35 - 11:20)",
+                "group": ""
+            },
+            {
                 "week": "Next",
                 "class_name": "1.B",
                 "subject": "Český jazyk a literatura",
@@ -11067,6 +11079,18 @@
                 "room": "2A - kmenová třídy 2.A (1.patro)",
                 "room_abbrev": "2A",
                 "day": "1.10.2026 (čtvrtek)",
+                "time": "3 (9:30 - 10:15)",
+                "group": "A1 - angličtináři sk.1"
+            },
+            {
+                "week": "Actual",
+                "class_name": "6.C",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "BŠ",
+                "room": "2B - kmenová třídy 2.B (2.patro)",
+                "room_abbrev": "2B",
+                "day": "2.10.2026 (pátek)",
                 "time": "3 (9:30 - 10:15)",
                 "group": "A1 - angličtináři sk.1"
             },
@@ -15544,30 +15568,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Seminář z dějepisu",
-                "subject_abbrev": "Ds",
-                "teacher_abbrev": "SK",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "2.10.2026 (pátek)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "SDě2 - Seminář z dějepisu 2.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Seminář z dějepisu",
-                "subject_abbrev": "Ds",
-                "teacher_abbrev": "SK",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "2.10.2026 (pátek)",
-                "time": "8:30 - 9:15",
-                "group": "SDě2 - Seminář z dějepisu 2.sk."
-            },
-            {
-                "week": "Actual",
                 "class_name": "4.B",
                 "subject": "Seminář z dějepisu",
                 "subject_abbrev": "Ds",
@@ -15589,30 +15589,6 @@
                 "day": "29.9.2026 (úterý)",
                 "time": "1 (7:45 - 8:30)",
                 "group": "SDě1 - Seminář z dějepisu 1.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Seminář z dějepisu",
-                "subject_abbrev": "Ds",
-                "teacher_abbrev": "SK",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "2.10.2026 (pátek)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "SDě2 - Seminář z dějepisu 2.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Seminář z dějepisu",
-                "subject_abbrev": "Ds",
-                "teacher_abbrev": "SK",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "2.10.2026 (pátek)",
-                "time": "8:30 - 9:15",
-                "group": "SDě2 - Seminář z dějepisu 2.sk."
             },
             {
                 "week": "Actual",
@@ -15628,18 +15604,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "SK",
-                "room": "4C - kmenová třídy 4.C (2.patro)",
-                "room_abbrev": "4C",
-                "day": "2.10.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "6.C",
                 "subject": "Seminář z dějepisu",
                 "subject_abbrev": "Ds",
@@ -15661,42 +15625,6 @@
                 "day": "29.9.2026 (úterý)",
                 "time": "1 (7:45 - 8:30)",
                 "group": "SDě1 - Seminář z dějepisu 1.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "SK",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
-                "day": "2.10.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Seminář z dějepisu",
-                "subject_abbrev": "Ds",
-                "teacher_abbrev": "SK",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "2.10.2026 (pátek)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "SDě2 - Seminář z dějepisu 2.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Seminář z dějepisu",
-                "subject_abbrev": "Ds",
-                "teacher_abbrev": "SK",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "2.10.2026 (pátek)",
-                "time": "8:30 - 9:15",
-                "group": "SDě2 - Seminář z dějepisu 2.sk."
             },
             {
                 "week": "Next",
