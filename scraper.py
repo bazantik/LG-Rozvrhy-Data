@@ -13,15 +13,43 @@ if not BASE_URL:
 
 BASE_URL = BASE_URL.rstrip("/")
 
+# Pomocná funkce pro načtení stránky s rychlým opakováním při chybě
+async def safe_goto(page, url, retries=2, timeout=30000):
+    for attempt in range(1, retries + 1):
+        try:
+            await page.goto(url, timeout=timeout, wait_until="domcontentloaded")
+            return True
+        except Exception as e:
+            print(f"⚠️ Pokus {attempt}/{retries} pro {url} selhal: {e}")
+            if attempt < retries:
+                await asyncio.sleep(4)
+            else:
+                return False
+
 async def scrape_bakalari():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(locale="cs-CZ")
+        
+        context = await browser.new_context(
+            locale="cs-CZ",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+            ignore_https_errors=True
+        )
         page = await context.new_page()
         
         print("Načítám seznam tříd...")
-        await page.goto(f"{BASE_URL}/", timeout=60000, wait_until="domcontentloaded")
-        await page.wait_for_selector("select")
+        initial_ok = await safe_goto(page, f"{BASE_URL}/", retries=3, timeout=40000)
+        if not initial_ok:
+            print("❌ Server školy neodpovídá na úvodní stránce. Ukončuji běh – stávající data zůstanou beze změny.")
+            await browser.close()
+            sys.exit(0)
+        
+        try:
+            await page.wait_for_selector("select", timeout=15000)
+        except Exception:
+            print("❌ Nepodařilo se nalézt výběr tříd na úvodní stránce.")
+            await browser.close()
+            sys.exit(0)
         
         classes = await page.eval_on_selector_all(
             "select option",
@@ -40,10 +68,17 @@ async def scrape_bakalari():
                 class_name = cls['name'].strip()
                 print(f"Zpracovávám třídu: {class_name} ({week})")
                 
-                await asyncio.sleep(1)
+                await asyncio.sleep(0.5)
                 
                 class_url = f"{BASE_URL}/{week}/Class/{cls['id']}"
-                await page.goto(class_url, timeout=60000, wait_until="domcontentloaded")
+                class_loaded = await safe_goto(page, class_url, retries=2, timeout=25000)
+                
+                # PRINCIP VŠECHNO NEBO NIC: Pokud třídu nelze načíst, okamžitě zastavíme celý skript
+                if not class_loaded:
+                    print(f"❌ Kritická chyba: Třídu {class_name} se nepodařilo načíst ani po opakovaném pokusu.")
+                    print("Zastavuji celý skript, aby nedošlo k uložení neúplného rozvrhu. Stávající JSON na serveru zůstane zachován.")
+                    await browser.close()
+                    sys.exit(0)
                 
                 # 1. Celodenní dny volna / státní svátky
                 try:
@@ -73,14 +108,13 @@ async def scrape_bakalari():
                 except Exception:
                     pass
 
-                # 2. Třídní a školní akce (absence třídy – exkurze, kurzy, atd.)
+                # 2. Třídní a školní akce (absence třídy – exkurze, kurzy atd.)
                 try:
                     class_events = await page.evaluate('''() => {
                         const results = [];
                         const rows = document.querySelectorAll('.bk-timetable-days-wrapper .bk-timetable-row');
                         
                         rows.forEach((row, index) => {
-                            // Zpracováváme pouze Po-Pá (0..4)
                             if (index < 0 || index >= 5) return;
 
                             const dayAbbrev = row.querySelector('.bk-day-day')?.innerText.trim() || "";
@@ -104,7 +138,6 @@ async def scrape_bakalari():
                                     } catch (e) {}
                                 }
 
-                                // Fallback: Pokud v data-detail chybí popis, vytáhneme viditelný text z HTML
                                 if (!description) {
                                     const textNode = abs.querySelector('.absence-info') || abs.querySelector('.middle') || abs;
                                     description = textNode ? textNode.innerText.replace(/\\s+/g, ' ').trim() : "Mimo školu";
@@ -132,7 +165,6 @@ async def scrape_bakalari():
                         if class_name not in events_data[week]:
                             events_data[week][class_name] = []
                         
-                        # Kontrola proti duplicitám
                         if ev not in events_data[week][class_name]:
                             events_data[week][class_name].append(ev)
                             print(f"📌 Nalezena akce ({week}, {class_name}): {ev['description']} ({ev['date']} {ev['time']})")
@@ -192,7 +224,7 @@ async def scrape_bakalari():
 
         await browser.close()
 
-        # Uložení dat
+        # Uložíme data POUZE tehdy, pokud proběhlo kompletní stažení
         if len(teachers_data) > 10:
             timestamp_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             export_data = {
