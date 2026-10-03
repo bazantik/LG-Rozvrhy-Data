@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-03T07:37:48Z",
+    "last_updated": "2026-10-03T08:35:10Z",
     "days_off": {
         "Actual": {
             "0": "Den české státnosti"
@@ -1793,10 +1793,10 @@
                 "subject": "Fyzika",
                 "subject_abbrev": "F",
                 "teacher_abbrev": "JO",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
                 "day": "6.10.2026 (úterý)",
-                "time": "7 (13:10 - 13:55)",
+                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -3508,6 +3508,18 @@
                 "day": "8.10.2026 (čtvrtek)",
                 "time": "6 (12:20 - 13:05)",
                 "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "2.A",
+                "subject": "Francouzský jazyk",
+                "subject_abbrev": "Fj",
+                "teacher_abbrev": "TU",
+                "room": "J2 - jazyková Fj (1.patro)",
+                "room_abbrev": "J2",
+                "day": "6.10.2026 (úterý)",
+                "time": "4 (10:35 - 11:20)",
+                "group": "F - francouštináři"
             },
             {
                 "week": "Next",
@@ -6301,18 +6313,6 @@
                 "teacher_abbrev": "MV",
                 "room": "J2 - jazyková Fj (1.patro)",
                 "room_abbrev": "J2",
-                "day": "6.10.2026 (úterý)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Next",
-                "class_name": "1.B",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "MV",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
                 "day": "7.10.2026 (středa)",
                 "time": "7 (13:10 - 13:55)",
                 "group": "F - francouštináři"
@@ -6327,18 +6327,6 @@
                 "room_abbrev": "J2",
                 "day": "8.10.2026 (čtvrtek)",
                 "time": "7 (13:10 - 13:55)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Next",
-                "class_name": "2.A",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "MV",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "6.10.2026 (úterý)",
-                "time": "4 (10:35 - 11:20)",
                 "group": "F - francouštináři"
             },
             {
@@ -6423,18 +6411,6 @@
                 "room_abbrev": "J2",
                 "day": "9.10.2026 (pátek)",
                 "time": "4 (10:35 - 11:20)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Next",
-                "class_name": "4.C",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "MV",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "6.10.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
                 "group": "F - francouštináři"
             },
             {
@@ -7275,8 +7251,8 @@
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
                 "teacher_abbrev": "KN",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
+                "room": "4C - kmenová třídy 4.C (2.patro)",
+                "room_abbrev": "4C",
                 "day": "6.10.2026 (úterý)",
                 "time": "5 (11:30 - 12:15)",
                 "group": "2-sk - 2.skupina"
@@ -8052,6 +8028,18 @@
                 "day": "30.9.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
                 "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "1.B",
+                "subject": "Francouzský jazyk",
+                "subject_abbrev": "Fj",
+                "teacher_abbrev": "ZH",
+                "room": "J2 - jazyková Fj (1.patro)",
+                "room_abbrev": "J2",
+                "day": "6.10.2026 (úterý)",
+                "time": "2 (8:35 - 9:20)",
+                "group": "F - francouštináři"
             },
             {
                 "week": "Next",
@@ -11723,10 +11711,10 @@
                 "subject": "Chemie",
                 "subject_abbrev": "Ch",
                 "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
                 "day": "6.10.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
+                "time": "7 (13:10 - 13:55)",
                 "group": ""
             },
             {
