@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-05T07:05:13Z",
+    "last_updated": "2026-10-05T07:52:57Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -13949,6 +13949,18 @@
                 "day": "7.10.2026 (středa)",
                 "time": "3 (9:30 - 10:15)",
                 "group": "A2 - angličtináři sk.2"
+            },
+            {
+                "week": "Actual",
+                "class_name": "3.C",
+                "subject": "Třídnická hodina",
+                "subject_abbrev": "Th",
+                "teacher_abbrev": "DO",
+                "room": "3C - kmenová třídy 3.C (2.patro)",
+                "room_abbrev": "3C",
+                "day": "7.10.2026 (středa)",
+                "time": "7 (13:10 - 13:55)",
+                "group": ""
             },
             {
                 "week": "Actual",
