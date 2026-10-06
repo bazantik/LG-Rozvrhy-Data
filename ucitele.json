@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-06T08:38:49Z",
+    "last_updated": "2026-10-06T09:34:39Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -16404,18 +16404,6 @@
                 "day": "9.10.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
                 "group": "Chl - chlapci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Sportovní příprava",
-                "subject_abbrev": "Spp",
-                "teacher_abbrev": "PL",
-                "room": "hal1 - hala 1",
-                "room_abbrev": "hal1",
-                "day": "7.10.2026 (středa)",
-                "time": "1 (7:45 - 8:30)",
-                "group": ""
             },
             {
                 "week": "Actual",
