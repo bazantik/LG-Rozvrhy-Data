@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-05T22:26:53Z",
+    "last_updated": "2026-10-06T05:32:00Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -827,10 +827,10 @@
                 "subject": "Český jazyk a literatura",
                 "subject_abbrev": "Čj",
                 "teacher_abbrev": "JN",
-                "room": "1S - kmenová třídy 1.S (1.patro)",
-                "room_abbrev": "1S",
+                "room": "uč - učebna",
+                "room_abbrev": "uč",
                 "day": "8.10.2026 (čtvrtek)",
-                "time": "8 (14:00 - 14:45)",
+                "time": "2 (8:35 - 9:20)",
                 "group": ""
             },
             {
@@ -16415,18 +16415,6 @@
                 "room_abbrev": "hal1",
                 "day": "7.10.2026 (středa)",
                 "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Geografie",
-                "subject_abbrev": "Geo",
-                "teacher_abbrev": "PL",
-                "room": "uč - učebna",
-                "room_abbrev": "uč",
-                "day": "8.10.2026 (čtvrtek)",
-                "time": "2 (8:35 - 9:20)",
                 "group": ""
             },
             {
