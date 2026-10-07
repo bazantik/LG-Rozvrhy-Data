@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-07T19:26:53Z",
+    "last_updated": "2026-10-07T22:26:26Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -384,8 +384,8 @@
                 "room": "uHv - hudební výchova (2.patro)",
                 "room_abbrev": "uHv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "8 (14:00 - 14:45)",
-                "group": "1-sk - 1.skupina"
+                "time": "9 (14:45 - 15:30)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -396,8 +396,8 @@
                 "room": "uHv - hudební výchova (2.patro)",
                 "room_abbrev": "uHv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "9 (14:45 - 15:30)",
-                "group": "2-sk - 2.skupina"
+                "time": "8 (14:00 - 14:45)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -2360,8 +2360,8 @@
                 "room": "2C - kmenová třídy 2.C (1.patro)",
                 "room_abbrev": "2C",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "1-sk - 1.skupina"
+                "time": "5 (11:30 - 12:15)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -2372,8 +2372,8 @@
                 "room": "2C - kmenová třídy 2.C (1.patro)",
                 "room_abbrev": "2C",
                 "day": "12.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "2-sk - 2.skupina"
+                "time": "4 (10:35 - 11:20)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -3187,10 +3187,10 @@
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
                 "teacher_abbrev": "TU",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "5 (11:30 - 12:15)",
                 "group": "Dív - dívky"
             },
             {
@@ -3199,10 +3199,10 @@
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
                 "teacher_abbrev": "TU",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
+                "room": "sál - sportovní sál",
+                "room_abbrev": "sál",
                 "day": "12.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
+                "time": "4 (10:35 - 11:20)",
                 "group": "Dív - dívky"
             },
             {
@@ -4472,18 +4472,6 @@
             {
                 "week": "Next",
                 "class_name": "4.B",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "KR",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "12.10.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
                 "subject": "Matematika",
                 "subject_abbrev": "M",
                 "teacher_abbrev": "KR",
@@ -4492,6 +4480,18 @@
                 "day": "12.10.2026 (pondělí)",
                 "time": "5 (11:30 - 12:15)",
                 "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "4.B",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "KR",
+                "room": "J4 - jazyková Aj (3.patro)",
+                "room_abbrev": "J4",
+                "day": "12.10.2026 (pondělí)",
+                "time": "3 (9:30 - 10:15)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -5116,8 +5116,8 @@
                 "room": "1C - kmenová třídy 1.C (1.patro)",
                 "room_abbrev": "1C",
                 "day": "12.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "1-sk - 1.skupina"
+                "time": "6 (12:20 - 13:05)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -5128,8 +5128,8 @@
                 "room": "1C - kmenová třídy 1.C (1.patro)",
                 "room_abbrev": "1C",
                 "day": "12.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "2-sk - 2.skupina"
+                "time": "5 (11:30 - 12:15)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -5919,10 +5919,10 @@
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
                 "teacher_abbrev": "KŽ",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
+                "room": "sál - sportovní sál",
+                "room_abbrev": "sál",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "5 (11:30 - 12:15)",
                 "group": "Chl - chlapci"
             },
             {
@@ -5931,10 +5931,10 @@
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
                 "teacher_abbrev": "KŽ",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
+                "time": "4 (10:35 - 11:20)",
                 "group": "Chl - chlapci"
             },
             {
@@ -6296,8 +6296,8 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "12.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "1-sk - 1.skupina"
+                "time": "7 (13:10 - 13:55)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -6308,8 +6308,8 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "12.10.2026 (pondělí)",
-                "time": "7 (13:10 - 13:55)",
-                "group": "2-sk - 2.skupina"
+                "time": "6 (12:20 - 13:05)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -6428,8 +6428,8 @@
                 "room": "uHv - hudební výchova (2.patro)",
                 "room_abbrev": "uHv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "2-sk - 2.skupina"
+                "time": "5 (11:30 - 12:15)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -6440,8 +6440,8 @@
                 "room": "uHv - hudební výchova (2.patro)",
                 "room_abbrev": "uHv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "1-sk - 1.skupina"
+                "time": "4 (10:35 - 11:20)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -6862,7 +6862,7 @@
                 "room": "uVv - výtvarná výchova (1.patro)",
                 "room_abbrev": "uVv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
+                "time": "4 (10:35 - 11:20)",
                 "group": "Vytv - výtvarníci"
             },
             {
@@ -6874,7 +6874,7 @@
                 "room": "uVv - výtvarná výchova (1.patro)",
                 "room_abbrev": "uVv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "3 (9:30 - 10:15)",
                 "group": "Vytv - výtvarníci"
             },
             {
@@ -7874,8 +7874,8 @@
                 "room": "2C - kmenová třídy 2.C (1.patro)",
                 "room_abbrev": "2C",
                 "day": "12.10.2026 (pondělí)",
-                "time": "8 (14:00 - 14:45)",
-                "group": "2-sk - 2.skupina"
+                "time": "9 (14:45 - 15:30)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -7886,8 +7886,8 @@
                 "room": "2C - kmenová třídy 2.C (1.patro)",
                 "room_abbrev": "2C",
                 "day": "12.10.2026 (pondělí)",
-                "time": "9 (14:45 - 15:30)",
-                "group": "1-sk - 1.skupina"
+                "time": "8 (14:00 - 14:45)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -8176,7 +8176,7 @@
                 "room": "vt2 - výpočetní technika (3.patro)",
                 "room_abbrev": "vt2",
                 "day": "12.10.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
+                "time": "4 (10:35 - 11:20)",
                 "group": "Hud - hudebníci"
             },
             {
@@ -8188,7 +8188,7 @@
                 "room": "vt2 - výpočetní technika (3.patro)",
                 "room_abbrev": "vt2",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "3 (9:30 - 10:15)",
                 "group": "Hud - hudebníci"
             },
             {
@@ -8760,18 +8760,6 @@
             {
                 "week": "Next",
                 "class_name": "2.B",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "KN",
-                "room": "2B - kmenová třídy 2.B (2.patro)",
-                "room_abbrev": "2B",
-                "day": "12.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "2.B",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
                 "teacher_abbrev": "KN",
@@ -8780,6 +8768,18 @@
                 "day": "12.10.2026 (pondělí)",
                 "time": "6 (12:20 - 13:05)",
                 "group": "2-sk - 2.skupina"
+            },
+            {
+                "week": "Next",
+                "class_name": "2.B",
+                "subject": "Český jazyk a literatura",
+                "subject_abbrev": "Čj",
+                "teacher_abbrev": "KN",
+                "room": "2B - kmenová třídy 2.B (2.patro)",
+                "room_abbrev": "2B",
+                "day": "12.10.2026 (pondělí)",
+                "time": "5 (11:30 - 12:15)",
+                "group": ""
             },
             {
                 "week": "Next",
@@ -10770,30 +10770,6 @@
             {
                 "week": "Next",
                 "class_name": "5.C",
-                "subject": "Seminář ze zeměpisu",
-                "subject_abbrev": "Zs",
-                "teacher_abbrev": "VE",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "12.10.2026 (pondělí)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "SZe - Seminář ze zeměpisu"
-            },
-            {
-                "week": "Next",
-                "class_name": "5.C",
-                "subject": "Seminář ze zeměpisu",
-                "subject_abbrev": "Zs",
-                "teacher_abbrev": "VE",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "12.10.2026 (pondělí)",
-                "time": "8:30 - 9:15",
-                "group": "SZe - Seminář ze zeměpisu"
-            },
-            {
-                "week": "Next",
-                "class_name": "5.C",
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
                 "teacher_abbrev": "VE",
@@ -10814,6 +10790,30 @@
                 "day": "12.10.2026 (pondělí)",
                 "time": "13:05 - 13:50",
                 "group": "Dív - dívky"
+            },
+            {
+                "week": "Next",
+                "class_name": "5.C",
+                "subject": "Seminář ze zeměpisu",
+                "subject_abbrev": "Zs",
+                "teacher_abbrev": "VE",
+                "room": "J2 - jazyková Fj (1.patro)",
+                "room_abbrev": "J2",
+                "day": "12.10.2026 (pondělí)",
+                "time": "1 (7:45 - 8:30)",
+                "group": "SZe - Seminář ze zeměpisu"
+            },
+            {
+                "week": "Next",
+                "class_name": "5.C",
+                "subject": "Seminář ze zeměpisu",
+                "subject_abbrev": "Zs",
+                "teacher_abbrev": "VE",
+                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
+                "room_abbrev": "uD-Z",
+                "day": "12.10.2026 (pondělí)",
+                "time": "8:30 - 9:15",
+                "group": "SZe - Seminář ze zeměpisu"
             },
             {
                 "week": "Next",
@@ -11246,8 +11246,8 @@
                 "room": "2A - kmenová třídy 2.A (1.patro)",
                 "room_abbrev": "2A",
                 "day": "12.10.2026 (pondělí)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "2-sk - 2.skupina"
+                "time": "3 (9:30 - 10:15)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -11258,8 +11258,8 @@
                 "room": "2A - kmenová třídy 2.A (1.patro)",
                 "room_abbrev": "2A",
                 "day": "12.10.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "1-sk - 1.skupina"
+                "time": "2 (8:35 - 9:20)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -12156,6 +12156,30 @@
             {
                 "week": "Next",
                 "class_name": "3.A",
+                "subject": "Biologie",
+                "subject_abbrev": "Bi",
+                "teacher_abbrev": "VK",
+                "room": "3A - kmenová třídy 3.A (2.patro)",
+                "room_abbrev": "3A",
+                "day": "12.10.2026 (pondělí)",
+                "time": "6 (12:20 - 13:05)",
+                "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "3.A",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "VK",
+                "room": "3A - kmenová třídy 3.A (2.patro)",
+                "room_abbrev": "3A",
+                "day": "12.10.2026 (pondělí)",
+                "time": "3 (9:30 - 10:15)",
+                "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "3.A",
                 "subject": "Biologická praktika",
                 "subject_abbrev": "BiP",
                 "teacher_abbrev": "VK",
@@ -12176,30 +12200,6 @@
                 "day": "12.10.2026 (pondělí)",
                 "time": "8:30 - 9:15",
                 "group": "BiPr - Biologická praktika"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.A",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VK",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "12.10.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "3.A",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "VK",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "12.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": ""
             },
             {
                 "week": "Next",
@@ -13138,8 +13138,8 @@
                 "room": "vt2 - výpočetní technika (3.patro)",
                 "room_abbrev": "vt2",
                 "day": "12.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "2-sk - 2.skupina"
+                "time": "6 (12:20 - 13:05)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -13150,20 +13150,8 @@
                 "room": "vt2 - výpočetní technika (3.patro)",
                 "room_abbrev": "vt2",
                 "day": "12.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Next",
-                "class_name": "2.C",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "BL",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "12.10.2026 (pondělí)",
-                "time": "8 (14:00 - 14:45)",
-                "group": "1-sk - 1.skupina"
+                "time": "5 (11:30 - 12:15)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -13176,6 +13164,18 @@
                 "day": "12.10.2026 (pondělí)",
                 "time": "9 (14:45 - 15:30)",
                 "group": "2-sk - 2.skupina"
+            },
+            {
+                "week": "Next",
+                "class_name": "2.C",
+                "subject": "Informatika",
+                "subject_abbrev": "Inf",
+                "teacher_abbrev": "BL",
+                "room": "vt2 - výpočetní technika (3.patro)",
+                "room_abbrev": "vt2",
+                "day": "12.10.2026 (pondělí)",
+                "time": "8 (14:00 - 14:45)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -13566,14 +13566,14 @@
             {
                 "week": "Next",
                 "class_name": "1.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
+                "subject": "Výtvarná výchova",
+                "subject_abbrev": "Vv",
                 "teacher_abbrev": "DO",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
+                "room": "uVv - výtvarná výchova (1.patro)",
+                "room_abbrev": "uVv",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "2-sk - 2.skupina"
+                "time": "9 (14:45 - 15:30)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -13590,14 +13590,14 @@
             {
                 "week": "Next",
                 "class_name": "1.C",
-                "subject": "Výtvarná výchova",
-                "subject_abbrev": "Vv",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
                 "teacher_abbrev": "DO",
-                "room": "uVv - výtvarná výchova (1.patro)",
-                "room_abbrev": "uVv",
+                "room": "J4 - jazyková Aj (3.patro)",
+                "room_abbrev": "J4",
                 "day": "12.10.2026 (pondělí)",
-                "time": "9 (14:45 - 15:30)",
-                "group": "1-sk - 1.skupina"
+                "time": "4 (10:35 - 11:20)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -16788,8 +16788,8 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "12.10.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "2-sk - 2.skupina"
+                "time": "4 (10:35 - 11:20)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -16800,8 +16800,8 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "1-sk - 1.skupina"
+                "time": "3 (9:30 - 10:15)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -17402,8 +17402,8 @@
                 "room": "1S - kmenová třídy 1.S (1.patro)",
                 "room_abbrev": "1S",
                 "day": "12.10.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "1-sk - 1.skupina"
+                "time": "4 (10:35 - 11:20)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -17414,8 +17414,8 @@
                 "room": "1S - kmenová třídy 1.S (1.patro)",
                 "room_abbrev": "1S",
                 "day": "12.10.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "2-sk - 2.skupina"
+                "time": "3 (9:30 - 10:15)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -17438,30 +17438,6 @@
                 "room": "ufy - kmenová třídy 6.C (přízemí)",
                 "room_abbrev": "ufy",
                 "day": "12.10.2026 (pondělí)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "SFy1 - Seminář z fyziky 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "3.A",
-                "subject": "Seminář z fyziky",
-                "subject_abbrev": "Fs",
-                "teacher_abbrev": "HD",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "12.10.2026 (pondělí)",
-                "time": "8:30 - 9:15",
-                "group": "SFy1 - Seminář z fyziky 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "3.A",
-                "subject": "Seminář z fyziky",
-                "subject_abbrev": "Fs",
-                "teacher_abbrev": "HD",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "12.10.2026 (pondělí)",
                 "time": "14:30 - 15:15",
                 "group": "SFy2 - Seminář z fyziky 2.sk."
             },
@@ -17479,7 +17455,7 @@
             },
             {
                 "week": "Next",
-                "class_name": "3.B",
+                "class_name": "3.A",
                 "subject": "Seminář z fyziky",
                 "subject_abbrev": "Fs",
                 "teacher_abbrev": "HD",
@@ -17491,7 +17467,7 @@
             },
             {
                 "week": "Next",
-                "class_name": "3.B",
+                "class_name": "3.A",
                 "subject": "Seminář z fyziky",
                 "subject_abbrev": "Fs",
                 "teacher_abbrev": "HD",
@@ -17524,6 +17500,30 @@
                 "day": "12.10.2026 (pondělí)",
                 "time": "15:15 - 16:00",
                 "group": "SFy2 - Seminář z fyziky 2.sk."
+            },
+            {
+                "week": "Next",
+                "class_name": "3.B",
+                "subject": "Seminář z fyziky",
+                "subject_abbrev": "Fs",
+                "teacher_abbrev": "HD",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
+                "day": "12.10.2026 (pondělí)",
+                "time": "1 (7:45 - 8:30)",
+                "group": "SFy1 - Seminář z fyziky 1.sk."
+            },
+            {
+                "week": "Next",
+                "class_name": "3.B",
+                "subject": "Seminář z fyziky",
+                "subject_abbrev": "Fs",
+                "teacher_abbrev": "HD",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
+                "day": "12.10.2026 (pondělí)",
+                "time": "8:30 - 9:15",
+                "group": "SFy1 - Seminář z fyziky 1.sk."
             },
             {
                 "week": "Next",
@@ -17714,30 +17714,6 @@
                 "room": "ufy - kmenová třídy 6.C (přízemí)",
                 "room_abbrev": "ufy",
                 "day": "12.10.2026 (pondělí)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "SFy1 - Seminář z fyziky 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "5.C",
-                "subject": "Seminář z fyziky",
-                "subject_abbrev": "Fs",
-                "teacher_abbrev": "HD",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "12.10.2026 (pondělí)",
-                "time": "8:30 - 9:15",
-                "group": "SFy1 - Seminář z fyziky 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "5.C",
-                "subject": "Seminář z fyziky",
-                "subject_abbrev": "Fs",
-                "teacher_abbrev": "HD",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "12.10.2026 (pondělí)",
                 "time": "14:30 - 15:15",
                 "group": "SFy2 - Seminář z fyziky 2.sk."
             },
@@ -17752,6 +17728,30 @@
                 "day": "12.10.2026 (pondělí)",
                 "time": "15:15 - 16:00",
                 "group": "SFy2 - Seminář z fyziky 2.sk."
+            },
+            {
+                "week": "Next",
+                "class_name": "5.C",
+                "subject": "Seminář z fyziky",
+                "subject_abbrev": "Fs",
+                "teacher_abbrev": "HD",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
+                "day": "12.10.2026 (pondělí)",
+                "time": "1 (7:45 - 8:30)",
+                "group": "SFy1 - Seminář z fyziky 1.sk."
+            },
+            {
+                "week": "Next",
+                "class_name": "5.C",
+                "subject": "Seminář z fyziky",
+                "subject_abbrev": "Fs",
+                "teacher_abbrev": "HD",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
+                "day": "12.10.2026 (pondělí)",
+                "time": "8:30 - 9:15",
+                "group": "SFy1 - Seminář z fyziky 1.sk."
             },
             {
                 "week": "Next",
@@ -19996,18 +19996,6 @@
             {
                 "week": "Next",
                 "class_name": "2.B",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "ŠO",
-                "room": "2B - kmenová třídy 2.B (2.patro)",
-                "room_abbrev": "2B",
-                "day": "12.10.2026 (pondělí)",
-                "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "2.B",
                 "subject": "Zeměpis",
                 "subject_abbrev": "Z",
                 "teacher_abbrev": "ŠO",
@@ -20015,6 +20003,18 @@
                 "room_abbrev": "2B",
                 "day": "12.10.2026 (pondělí)",
                 "time": "4 (10:35 - 11:20)",
+                "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "2.B",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "ŠO",
+                "room": "2B - kmenová třídy 2.B (2.patro)",
+                "room_abbrev": "2B",
+                "day": "12.10.2026 (pondělí)",
+                "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
             {
