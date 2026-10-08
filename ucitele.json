@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-08T08:41:41Z",
+    "last_updated": "2026-10-08T09:36:33Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -5804,6 +5804,18 @@
                 "day": "15.10.2026 (čtvrtek)",
                 "time": "2 (8:35 - 9:20)",
                 "group": "Sh - sportovní hry"
+            },
+            {
+                "week": "Next",
+                "class_name": "1.S",
+                "subject": "Sportovní příprava",
+                "subject_abbrev": "Spp",
+                "teacher_abbrev": "KŽ",
+                "room": "baz1 - bazén 1",
+                "room_abbrev": "baz1",
+                "day": "12.10.2026 (pondělí)",
+                "time": "12:50 - 13:35",
+                "group": ""
             },
             {
                 "week": "Next",
@@ -19669,6 +19681,18 @@
             },
             {
                 "week": "Next",
+                "class_name": "1.S",
+                "subject": "Sportovní příprava",
+                "subject_abbrev": "Spp",
+                "teacher_abbrev": "ŠO",
+                "room": "baz1 - bazén 1",
+                "room_abbrev": "baz1",
+                "day": "12.10.2026 (pondělí)",
+                "time": "13:35 - 14:20",
+                "group": ""
+            },
+            {
+                "week": "Next",
                 "class_name": "2.B",
                 "subject": "Zeměpis",
                 "subject_abbrev": "Z",
@@ -22464,30 +22488,6 @@
                 "day": "16.10.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
                 "group": "Chl - chlapci"
-            },
-            {
-                "week": "Next",
-                "class_name": "1.S",
-                "subject": "Sportovní příprava",
-                "subject_abbrev": "Spp",
-                "teacher_abbrev": "PL",
-                "room": "baz1 - bazén 1",
-                "room_abbrev": "baz1",
-                "day": "12.10.2026 (pondělí)",
-                "time": "12:50 - 13:35",
-                "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "1.S",
-                "subject": "Sportovní příprava",
-                "subject_abbrev": "Spp",
-                "teacher_abbrev": "PL",
-                "room": "baz1 - bazén 1",
-                "room_abbrev": "baz1",
-                "day": "12.10.2026 (pondělí)",
-                "time": "13:35 - 14:20",
-                "group": ""
             },
             {
                 "week": "Next",
