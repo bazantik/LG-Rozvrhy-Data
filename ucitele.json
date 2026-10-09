@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-09T05:33:40Z",
+    "last_updated": "2026-10-09T06:49:30Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -2980,6 +2980,18 @@
             {
                 "week": "Next",
                 "class_name": "1.A",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "TU",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
+                "day": "13.10.2026 (úterý)",
+                "time": "3 (9:30 - 10:15)",
+                "group": "Dív - dívky"
+            },
+            {
+                "week": "Next",
+                "class_name": "1.A",
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
                 "teacher_abbrev": "TU",
@@ -5696,18 +5708,6 @@
                 "day": "5.10.2026 (pondělí)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "Chl - chlapci"
-            },
-            {
-                "week": "Next",
-                "class_name": "1.A",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "KŽ",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
-                "day": "13.10.2026 (úterý)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "Dív - dívky"
             },
             {
                 "week": "Next",
