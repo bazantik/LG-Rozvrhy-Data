@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-15T15:04:29Z",
+    "last_updated": "2026-10-15T19:06:45Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -13472,30 +13472,6 @@
                 "teacher_abbrev": "KO",
                 "room": "uB-C - kmenová třídy 5.C (2.patro)",
                 "room_abbrev": "uB-C",
-                "day": "19.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SCh1 - Seminář z chemie 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.A",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "19.10.2026 (pondělí)",
-                "time": "13:05 - 13:50",
-                "group": "SCh1 - Seminář z chemie 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.A",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
                 "day": "21.10.2026 (středa)",
                 "time": "1 (7:45 - 8:30)",
                 "group": "SCh2 - Seminář z chemie 2.sk."
@@ -13511,30 +13487,6 @@
                 "day": "21.10.2026 (středa)",
                 "time": "8:30 - 9:15",
                 "group": "SCh2 - Seminář z chemie 2.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "19.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SCh1 - Seminář z chemie 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "19.10.2026 (pondělí)",
-                "time": "13:05 - 13:50",
-                "group": "SCh1 - Seminář z chemie 1.sk."
             },
             {
                 "week": "Next",
@@ -13631,30 +13583,6 @@
                 "day": "23.10.2026 (pátek)",
                 "time": "3 (9:30 - 10:15)",
                 "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "19.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SCh1 - Seminář z chemie 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "19.10.2026 (pondělí)",
-                "time": "13:05 - 13:50",
-                "group": "SCh1 - Seminář z chemie 1.sk."
             },
             {
                 "week": "Next",
