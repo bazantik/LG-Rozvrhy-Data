@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-19T10:49:36Z",
+    "last_updated": "2026-10-19T17:30:41Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -1369,10 +1369,10 @@
                 "subject": "Fyzika",
                 "subject_abbrev": "F",
                 "teacher_abbrev": "JO",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
+                "room": "3B - kmenová třídy 3.B (2.patro)",
+                "room_abbrev": "3B",
                 "day": "20.10.2026 (úterý)",
-                "time": "7 (13:10 - 13:55)",
+                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -10233,8 +10233,8 @@
                 "subject": "Francouzský jazyk",
                 "subject_abbrev": "Fj",
                 "teacher_abbrev": "FN",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
+                "room": "3B - kmenová třídy 3.B (2.patro)",
+                "room_abbrev": "3B",
                 "day": "20.10.2026 (úterý)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "F - francouštináři"
@@ -13755,18 +13755,6 @@
                 "teacher_abbrev": "ZH",
                 "room": "2A - kmenová třídy 2.A (1.patro)",
                 "room_abbrev": "2A",
-                "day": "20.10.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
                 "day": "21.10.2026 (středa)",
                 "time": "1 (7:45 - 8:30)",
                 "group": ""
@@ -13805,18 +13793,6 @@
                 "room_abbrev": "3A",
                 "day": "19.10.2026 (pondělí)",
                 "time": "7 (13:10 - 13:55)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "20.10.2026 (úterý)",
-                "time": "6 (12:20 - 13:05)",
                 "group": ""
             },
             {
@@ -13875,18 +13851,6 @@
                 "teacher_abbrev": "ZH",
                 "room": "3B - kmenová třídy 3.B (2.patro)",
                 "room_abbrev": "3B",
-                "day": "20.10.2026 (úterý)",
-                "time": "7 (13:10 - 13:55)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
                 "day": "21.10.2026 (středa)",
                 "time": "2 (8:35 - 9:20)",
                 "group": ""
@@ -13925,18 +13889,6 @@
                 "room_abbrev": "2A",
                 "day": "19.10.2026 (pondělí)",
                 "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
-                "day": "20.10.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -14925,8 +14877,8 @@
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
                 "teacher_abbrev": "UR",
-                "room": "2C - kmenová třídy 2.C (1.patro)",
-                "room_abbrev": "2C",
+                "room": "3A - kmenová třídy 3.A (2.patro)",
+                "room_abbrev": "3A",
                 "day": "20.10.2026 (úterý)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "N - němčináři"
@@ -15817,10 +15769,10 @@
                 "subject": "Dějepis",
                 "subject_abbrev": "D",
                 "teacher_abbrev": "SK",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
+                "room": "3B - kmenová třídy 3.B (2.patro)",
+                "room_abbrev": "3B",
                 "day": "20.10.2026 (úterý)",
-                "time": "7 (13:10 - 13:55)",
+                "time": "6 (12:20 - 13:05)",
                 "group": ""
             },
             {
