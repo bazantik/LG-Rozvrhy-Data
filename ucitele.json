@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-20T01:05:54Z",
+    "last_updated": "2026-10-20T09:30:17Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -8429,18 +8429,6 @@
                 "room_abbrev": "3A",
                 "day": "23.10.2026 (pátek)",
                 "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "VK",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "20.10.2026 (úterý)",
-                "time": "6 (12:20 - 13:05)",
                 "group": ""
             },
             {
