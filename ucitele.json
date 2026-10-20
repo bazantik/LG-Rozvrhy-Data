@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-20T10:07:37Z",
+    "last_updated": "2026-10-20T15:08:32Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -9630,6 +9630,18 @@
             {
                 "week": "Actual",
                 "class_name": "1.C",
+                "subject": "Třídnická hodina",
+                "subject_abbrev": "Th",
+                "teacher_abbrev": "FN",
+                "room": "1C - kmenová třídy 1.C (1.patro)",
+                "room_abbrev": "1C",
+                "day": "21.10.2026 (středa)",
+                "time": "6 (12:20 - 13:05)",
+                "group": ""
+            },
+            {
+                "week": "Actual",
+                "class_name": "1.C",
                 "subject": "Dějepis",
                 "subject_abbrev": "D",
                 "teacher_abbrev": "FN",
@@ -10391,8 +10403,8 @@
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
                 "teacher_abbrev": "HK",
-                "room": "1C - kmenová třídy 1.C (1.patro)",
-                "room_abbrev": "1C",
+                "room": "4C - kmenová třídy 4.C (2.patro)",
+                "room_abbrev": "4C",
                 "day": "21.10.2026 (středa)",
                 "time": "6 (12:20 - 13:05)",
                 "group": "A2 - angličtináři sk.2"
