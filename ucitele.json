@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-21T15:19:50Z",
+    "last_updated": "2026-10-21T19:18:18Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -140,8 +140,8 @@
                 "subject": "Třídnická hodina",
                 "subject_abbrev": "Th",
                 "teacher_abbrev": "KA",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
                 "day": "19.10.2026 (pondělí)",
                 "time": "3 (9:30 - 10:15)",
                 "group": ""
@@ -1598,8 +1598,8 @@
                 "subject": "Matematika",
                 "subject_abbrev": "M",
                 "teacher_abbrev": "JO",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
+                "room": "1A - kmenová třídy 1.A (přízemí)",
+                "room_abbrev": "1A",
                 "day": "19.10.2026 (pondělí)",
                 "time": "3 (9:30 - 10:15)",
                 "group": ""
@@ -7990,8 +7990,8 @@
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
                 "teacher_abbrev": "VM",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
+                "room": "3B - kmenová třídy 3.B (2.patro)",
+                "room_abbrev": "3B",
                 "day": "19.10.2026 (pondělí)",
                 "time": "3 (9:30 - 10:15)",
                 "group": "N2 - němčináři 2.sk."
@@ -9752,8 +9752,8 @@
                 "subject": "Francouzský jazyk",
                 "subject_abbrev": "Fj",
                 "teacher_abbrev": "FN",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
+                "room": "3A - kmenová třídy 3.A (2.patro)",
+                "room_abbrev": "3A",
                 "day": "20.10.2026 (úterý)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "F - francouštináři"
@@ -14544,8 +14544,8 @@
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
                 "teacher_abbrev": "UR",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
+                "room": "2C - kmenová třídy 2.C (1.patro)",
+                "room_abbrev": "2C",
                 "day": "20.10.2026 (úterý)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "N - němčináři"
