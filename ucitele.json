@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-20T22:18:14Z",
+    "last_updated": "2026-10-21T10:14:09Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -4555,7 +4555,7 @@
                 "room": "uVv - výtvarná výchova (1.patro)",
                 "room_abbrev": "uVv",
                 "day": "22.10.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "10:20 - 11:05",
                 "group": "Vytv - výtvarníci"
             },
             {
@@ -5907,7 +5907,7 @@
                 "room": "vt2 - výpočetní technika (3.patro)",
                 "room_abbrev": "vt2",
                 "day": "22.10.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "10:20 - 11:05",
                 "group": "Hud - hudebníci"
             },
             {
@@ -8321,6 +8321,18 @@
                 "day": "21.10.2026 (středa)",
                 "time": "7 (13:10 - 13:55)",
                 "group": "2-sk - 2.skupina"
+            },
+            {
+                "week": "Actual",
+                "class_name": "2.A",
+                "subject": "Biologie",
+                "subject_abbrev": "Bi",
+                "teacher_abbrev": "VK",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
+                "day": "22.10.2026 (čtvrtek)",
+                "time": "2 (8:35 - 9:20)",
+                "group": ""
             },
             {
                 "week": "Actual",
@@ -11131,7 +11143,7 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "22.10.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "10:20 - 11:05",
                 "group": "1-sk - 1.skupina"
             },
             {
@@ -11481,7 +11493,7 @@
                 "room": "ufy - kmenová třídy 6.C (přízemí)",
                 "room_abbrev": "ufy",
                 "day": "22.10.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "10:20 - 11:05",
                 "group": "2-sk - 2.skupina"
             },
             {
@@ -12635,7 +12647,7 @@
                 "room": "2B - kmenová třídy 2.B (2.patro)",
                 "room_abbrev": "2B",
                 "day": "22.10.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "10:20 - 11:05",
                 "group": ""
             },
             {
@@ -13505,7 +13517,7 @@
                 "room": "4C - kmenová třídy 4.C (2.patro)",
                 "room_abbrev": "4C",
                 "day": "22.10.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
+                "time": "10:20 - 11:05",
                 "group": ""
             },
             {
@@ -13638,18 +13650,6 @@
                 "teacher_abbrev": "ZH",
                 "room": "2A - kmenová třídy 2.A (1.patro)",
                 "room_abbrev": "2A",
-                "day": "22.10.2026 (čtvrtek)",
-                "time": "2 (8:35 - 9:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
                 "day": "23.10.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
                 "group": ""
@@ -13723,18 +13723,6 @@
                 "room": "2A - kmenová třídy 2.A (1.patro)",
                 "room_abbrev": "2A",
                 "day": "19.10.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
-                "day": "22.10.2026 (čtvrtek)",
                 "time": "3 (9:30 - 10:15)",
                 "group": ""
             },
