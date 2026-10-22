@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-22T10:15:06Z",
+    "last_updated": "2026-10-22T15:21:40Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -3999,8 +3999,8 @@
                 "room": "1C - kmenová třídy 1.C (1.patro)",
                 "room_abbrev": "1C",
                 "day": "26.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "2-sk - 2.skupina"
+                "time": "5 (11:30 - 12:15)",
+                "group": ""
             },
             {
                 "week": "Next",
@@ -4011,8 +4011,8 @@
                 "room": "1C - kmenová třídy 1.C (1.patro)",
                 "room_abbrev": "1C",
                 "day": "26.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "1-sk - 1.skupina"
+                "time": "6 (12:20 - 13:05)",
+                "group": ""
             },
             {
                 "week": "Next",
@@ -9141,30 +9141,6 @@
                 "day": "21.10.2026 (středa)",
                 "time": "8:30 - 9:15",
                 "group": "STkr - Technické kreslení"
-            },
-            {
-                "week": "Next",
-                "class_name": "1.C",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "BL",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "26.10.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Next",
-                "class_name": "1.C",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "BL",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "26.10.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
