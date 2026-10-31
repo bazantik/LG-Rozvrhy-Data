@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-31T01:35:18Z",
+    "last_updated": "2026-10-31T10:57:34Z",
     "days_off": {
         "Actual": {
             "2": "Den vzniku samostatného Československého státu",
@@ -10,7 +10,19 @@
     },
     "events": {
         "Actual": {},
-        "Next": {}
+        "Next": {
+            "3.C": [
+                {
+                    "day_index": 1,
+                    "day_abbrev": "Út",
+                    "date": "3.11.",
+                    "type": "obed",
+                    "description": "přestávka na oběd",
+                    "day": "3.11.2026 (úterý)",
+                    "time": "11:30 - 12:15"
+                }
+            ]
+        }
     },
     "teachers": {
         "Mgr. Barbora Elmali": [
@@ -562,46 +574,10 @@
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
                 "teacher_abbrev": "TU",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
-                "day": "3.11.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Next",
-                "class_name": "1.A",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "TU",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
-                "day": "3.11.2026 (úterý)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Next",
-                "class_name": "1.A",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "TU",
                 "room": "uB-C - kmenová třídy 5.C (2.patro)",
                 "room_abbrev": "uB-C",
                 "day": "5.11.2026 (čtvrtek)",
                 "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "1.C",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "TU",
-                "room": "1C - kmenová třídy 1.C (1.patro)",
-                "room_abbrev": "1C",
-                "day": "3.11.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -674,30 +650,6 @@
                 "room_abbrev": "sál",
                 "day": "6.11.2026 (pátek)",
                 "time": "4 (10:35 - 11:20)",
-                "group": "Dív - dívky"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.A",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "TU",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
-                "day": "3.11.2026 (úterý)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "Dív - dívky"
-            },
-            {
-                "week": "Next",
-                "class_name": "3.A",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "TU",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
-                "day": "3.11.2026 (úterý)",
-                "time": "13:05 - 13:50",
                 "group": "Dív - dívky"
             },
             {
@@ -1736,7 +1688,7 @@
                 "room_abbrev": "1A",
                 "day": "3.11.2026 (úterý)",
                 "time": "1 (7:45 - 8:30)",
-                "group": "1-sk - 1.skupina"
+                "group": ""
             },
             {
                 "week": "Next",
@@ -1748,7 +1700,7 @@
                 "room_abbrev": "1A",
                 "day": "3.11.2026 (úterý)",
                 "time": "2 (8:35 - 9:20)",
-                "group": "2-sk - 2.skupina"
+                "group": ""
             },
             {
                 "week": "Next",
@@ -2638,6 +2590,18 @@
                 "teacher_abbrev": "PL",
                 "room": "1C - kmenová třídy 1.C (1.patro)",
                 "room_abbrev": "1C",
+                "day": "3.11.2026 (úterý)",
+                "time": "5 (11:30 - 12:15)",
+                "group": ""
+            },
+            {
+                "week": "Next",
+                "class_name": "1.C",
+                "subject": "Zeměpis",
+                "subject_abbrev": "Z",
+                "teacher_abbrev": "PL",
+                "room": "1C - kmenová třídy 1.C (1.patro)",
+                "room_abbrev": "1C",
                 "day": "4.11.2026 (středa)",
                 "time": "3 (9:30 - 10:15)",
                 "group": ""
@@ -3259,30 +3223,6 @@
             {
                 "week": "Next",
                 "class_name": "4.A",
-                "subject": "Testování obecných studijních předpoklad",
-                "subject_abbrev": "OSP",
-                "teacher_abbrev": "ZI",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "2.11.2026 (pondělí)",
-                "time": "14:15 - 15:00",
-                "group": "OSP - Obecné studijní předpoklady"
-            },
-            {
-                "week": "Next",
-                "class_name": "4.A",
-                "subject": "Testování obecných studijních předpoklad",
-                "subject_abbrev": "OSP",
-                "teacher_abbrev": "ZI",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "2.11.2026 (pondělí)",
-                "time": "15:00 - 15:45",
-                "group": "OSP - Obecné studijní předpoklady"
-            },
-            {
-                "week": "Next",
-                "class_name": "4.A",
                 "subject": "Ekonomický seminář",
                 "subject_abbrev": "Ek",
                 "teacher_abbrev": "ZI",
@@ -3331,30 +3271,6 @@
             {
                 "week": "Next",
                 "class_name": "4.B",
-                "subject": "Testování obecných studijních předpoklad",
-                "subject_abbrev": "OSP",
-                "teacher_abbrev": "ZI",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "2.11.2026 (pondělí)",
-                "time": "14:15 - 15:00",
-                "group": "OSP - Obecné studijní předpoklady"
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
-                "subject": "Testování obecných studijních předpoklad",
-                "subject_abbrev": "OSP",
-                "teacher_abbrev": "ZI",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "2.11.2026 (pondělí)",
-                "time": "15:00 - 15:45",
-                "group": "OSP - Obecné studijní předpoklady"
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
                 "subject": "Ekonomický seminář",
                 "subject_abbrev": "Ek",
                 "teacher_abbrev": "ZI",
@@ -3399,30 +3315,6 @@
                 "day": "6.11.2026 (pátek)",
                 "time": "8:30 - 9:15",
                 "group": "Ek1 - Seminář z ekonomiky 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Testování obecných studijních předpoklad",
-                "subject_abbrev": "OSP",
-                "teacher_abbrev": "ZI",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "2.11.2026 (pondělí)",
-                "time": "14:15 - 15:00",
-                "group": "OSP - Obecné studijní předpoklady"
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Testování obecných studijních předpoklad",
-                "subject_abbrev": "OSP",
-                "teacher_abbrev": "ZI",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "2.11.2026 (pondělí)",
-                "time": "15:00 - 15:45",
-                "group": "OSP - Obecné studijní předpoklady"
             },
             {
                 "week": "Next",
@@ -16106,18 +15998,6 @@
                 "subject": "Fyzika",
                 "subject_abbrev": "F",
                 "teacher_abbrev": "HD",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "3.11.2026 (úterý)",
-                "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "3.C",
-                "subject": "Fyzika",
-                "subject_abbrev": "F",
-                "teacher_abbrev": "HD",
                 "room": "ufy - kmenová třídy 6.C (přízemí)",
                 "room_abbrev": "ufy",
                 "day": "5.11.2026 (čtvrtek)",
@@ -16139,30 +16019,6 @@
             {
                 "week": "Next",
                 "class_name": "4.A",
-                "subject": "Matematická analýza",
-                "subject_abbrev": "Man",
-                "teacher_abbrev": "HD",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "3.11.2026 (úterý)",
-                "time": "8:30 - 9:15",
-                "group": "MAn1 - Matematická analýza 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.A",
-                "subject": "Matematická analýza",
-                "subject_abbrev": "Man",
-                "teacher_abbrev": "HD",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "3.11.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "MAn1 - Matematická analýza 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.A",
                 "subject": "Seminář z fyziky",
                 "subject_abbrev": "Fs",
                 "teacher_abbrev": "HD",
@@ -16187,30 +16043,6 @@
             {
                 "week": "Next",
                 "class_name": "4.B",
-                "subject": "Matematická analýza",
-                "subject_abbrev": "Man",
-                "teacher_abbrev": "HD",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "3.11.2026 (úterý)",
-                "time": "8:30 - 9:15",
-                "group": "MAn1 - Matematická analýza 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
-                "subject": "Matematická analýza",
-                "subject_abbrev": "Man",
-                "teacher_abbrev": "HD",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "3.11.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "MAn1 - Matematická analýza 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
                 "subject": "Seminář z fyziky",
                 "subject_abbrev": "Fs",
                 "teacher_abbrev": "HD",
@@ -16231,30 +16063,6 @@
                 "day": "5.11.2026 (čtvrtek)",
                 "time": "13:05 - 13:50",
                 "group": "SFy2 - Seminář z fyziky 2.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Matematická analýza",
-                "subject_abbrev": "Man",
-                "teacher_abbrev": "HD",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "3.11.2026 (úterý)",
-                "time": "8:30 - 9:15",
-                "group": "MAn1 - Matematická analýza 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Matematická analýza",
-                "subject_abbrev": "Man",
-                "teacher_abbrev": "HD",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "3.11.2026 (úterý)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "MAn1 - Matematická analýza 1.sk."
             },
             {
                 "week": "Next",
