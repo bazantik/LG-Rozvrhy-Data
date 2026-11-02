@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-02T01:30:17Z",
+    "last_updated": "2026-11-02T13:33:12Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -1236,7 +1236,7 @@
                 "room_abbrev": "ufy",
                 "day": "4.11.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
-                "group": "1-sk - 1.skupina"
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Actual",
@@ -16710,7 +16710,7 @@
                 "room_abbrev": "lab",
                 "day": "4.11.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
-                "group": "2-sk - 2.skupina"
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Actual",
@@ -16817,6 +16817,18 @@
                 "room": "uB-C - kmenová třídy 5.C (2.patro)",
                 "room_abbrev": "uB-C",
                 "day": "3.11.2026 (úterý)",
+                "time": "1 (7:45 - 8:30)",
+                "group": ""
+            },
+            {
+                "week": "Actual",
+                "class_name": "3.C",
+                "subject": "Chemie",
+                "subject_abbrev": "Ch",
+                "teacher_abbrev": "HO",
+                "room": "3C - kmenová třídy 3.C (2.patro)",
+                "room_abbrev": "3C",
+                "day": "4.11.2026 (středa)",
                 "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
@@ -19802,18 +19814,6 @@
                 "teacher_abbrev": "ŠP",
                 "room": "3C - kmenová třídy 3.C (2.patro)",
                 "room_abbrev": "3C",
-                "day": "4.11.2026 (středa)",
-                "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.C",
-                "subject": "Geografie",
-                "subject_abbrev": "Geo",
-                "teacher_abbrev": "ŠP",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
                 "day": "6.11.2026 (pátek)",
                 "time": "4 (10:35 - 11:20)",
                 "group": ""
@@ -19869,30 +19869,6 @@
             {
                 "week": "Actual",
                 "class_name": "4.B",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "ŠP",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
-                "day": "4.11.2026 (středa)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "Dív - dívky"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "ŠP",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
-                "day": "4.11.2026 (středa)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "Dív - dívky"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
                 "subject": "Seminář ze zeměpisu",
                 "subject_abbrev": "Zs",
                 "teacher_abbrev": "ŠP",
@@ -19937,30 +19913,6 @@
                 "day": "5.11.2026 (čtvrtek)",
                 "time": "4 (10:35 - 11:20)",
                 "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "ŠP",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
-                "day": "4.11.2026 (středa)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "Dív - dívky"
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "ŠP",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
-                "day": "4.11.2026 (středa)",
-                "time": "12:15 - 13:00",
-                "group": "Dív - dívky"
             },
             {
                 "week": "Actual",
@@ -22680,11 +22632,35 @@
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
                 "teacher_abbrev": "ŠI",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
+                "day": "4.11.2026 (středa)",
+                "time": "3 (9:30 - 10:15)",
+                "group": "Dív - dívky"
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.B",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "ŠI",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
                 "day": "4.11.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "Chl - chlapci"
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.B",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "ŠI",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
+                "day": "4.11.2026 (středa)",
+                "time": "4 (10:35 - 11:20)",
+                "group": "Dív - dívky"
             },
             {
                 "week": "Actual",
