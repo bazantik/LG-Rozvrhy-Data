@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-02T23:07:08Z",
+    "last_updated": "2026-11-03T12:50:06Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -2232,18 +2232,6 @@
                 "room_abbrev": "1A",
                 "day": "2.11.2026 (pondělí)",
                 "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.B",
-                "subject": "Výchova ke zdraví",
-                "subject_abbrev": "Vkz",
-                "teacher_abbrev": "MJ",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "5.11.2026 (čtvrtek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -10529,6 +10517,18 @@
                 "day": "4.11.2026 (středa)",
                 "time": "2 (8:35 - 9:20)",
                 "group": "1-sk - 1.skupina"
+            },
+            {
+                "week": "Actual",
+                "class_name": "1.B",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "VA",
+                "room": "1B - kmenová třídy 1.B (přízemí)",
+                "room_abbrev": "1B",
+                "day": "5.11.2026 (čtvrtek)",
+                "time": "4 (10:35 - 11:20)",
+                "group": ""
             },
             {
                 "week": "Actual",
