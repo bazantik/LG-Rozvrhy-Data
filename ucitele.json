@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-05T02:24:15Z",
+    "last_updated": "2026-11-05T13:15:14Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -62,7 +62,19 @@
                 }
             ]
         },
-        "Next": {}
+        "Next": {
+            "3.B": [
+                {
+                    "day_index": 0,
+                    "day_abbrev": "Po",
+                    "date": "9.11.",
+                    "type": "obed",
+                    "description": "přestávka na oběd",
+                    "day": "9.11.2026 (pondělí)",
+                    "time": "11:30 - 12:15"
+                }
+            ]
+        }
     },
     "teachers": {
         "Mgr. Barbora Elmali": [
@@ -3795,6 +3807,18 @@
                 "room": "J4 - jazyková Aj (3.patro)",
                 "room_abbrev": "J4",
                 "day": "13.11.2026 (pátek)",
+                "time": "3 (9:30 - 10:15)",
+                "group": "1-sk - 1.skupina"
+            },
+            {
+                "week": "Next",
+                "class_name": "2.A",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "HL",
+                "room": "J3 - jazyková Aj (3.patro)",
+                "room_abbrev": "J3",
+                "day": "9.11.2026 (pondělí)",
                 "time": "3 (9:30 - 10:15)",
                 "group": "1-sk - 1.skupina"
             },
@@ -9716,8 +9740,8 @@
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
                 "teacher_abbrev": "KN",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
+                "room": "uB-C - kmenová třídy 5.C (2.patro)",
+                "room_abbrev": "uB-C",
                 "day": "9.11.2026 (pondělí)",
                 "time": "4 (10:35 - 11:20)",
                 "group": "2-sk - 2.skupina"
@@ -13241,6 +13265,18 @@
             {
                 "week": "Next",
                 "class_name": "4.B",
+                "subject": "Anglický jazyk",
+                "subject_abbrev": "Aj",
+                "teacher_abbrev": "BŠ",
+                "room": "J4 - jazyková Aj (3.patro)",
+                "room_abbrev": "J4",
+                "day": "9.11.2026 (pondělí)",
+                "time": "2 (8:35 - 9:20)",
+                "group": "1-sk - 1.skupina"
+            },
+            {
+                "week": "Next",
+                "class_name": "4.B",
                 "subject": "Konverzace v anglic. jazyce",
                 "subject_abbrev": "Ak",
                 "teacher_abbrev": "BŠ",
@@ -13779,20 +13815,8 @@
                 "room": "uVv - výtvarná výchova (1.patro)",
                 "room_abbrev": "uVv",
                 "day": "6.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Výtvarná výchova",
-                "subject_abbrev": "Vv",
-                "teacher_abbrev": "DO",
-                "room": "uVv - výtvarná výchova (1.patro)",
-                "room_abbrev": "uVv",
-                "day": "6.11.2026 (pátek)",
                 "time": "4 (10:35 - 11:20)",
-                "group": "2-sk - 2.skupina"
+                "group": ""
             },
             {
                 "week": "Actual",
@@ -15484,18 +15508,6 @@
                 "subject": "Chemie",
                 "subject_abbrev": "Ch",
                 "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "9.11.2026 (pondělí)",
-                "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "3.B",
-                "subject": "Chemie",
-                "subject_abbrev": "Ch",
-                "teacher_abbrev": "KO",
                 "room": "3B - kmenová třídy 3.B (2.patro)",
                 "room_abbrev": "3B",
                 "day": "11.11.2026 (středa)",
@@ -15534,30 +15546,6 @@
                 "teacher_abbrev": "KO",
                 "room": "uB-C - kmenová třídy 5.C (2.patro)",
                 "room_abbrev": "uB-C",
-                "day": "9.11.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SCh1 - Seminář z chemie 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.A",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "9.11.2026 (pondělí)",
-                "time": "13:05 - 13:50",
-                "group": "SCh1 - Seminář z chemie 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.A",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
                 "day": "11.11.2026 (středa)",
                 "time": "1 (7:45 - 8:30)",
                 "group": "SCh2 - Seminář z chemie 2.sk."
@@ -15573,30 +15561,6 @@
                 "day": "11.11.2026 (středa)",
                 "time": "8:30 - 9:15",
                 "group": "SCh2 - Seminář z chemie 2.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "9.11.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SCh1 - Seminář z chemie 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "9.11.2026 (pondělí)",
-                "time": "13:05 - 13:50",
-                "group": "SCh1 - Seminář z chemie 1.sk."
             },
             {
                 "week": "Next",
@@ -15693,30 +15657,6 @@
                 "day": "13.11.2026 (pátek)",
                 "time": "3 (9:30 - 10:15)",
                 "group": ""
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "9.11.2026 (pondělí)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "SCh1 - Seminář z chemie 1.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "6.C",
-                "subject": "Seminář z chemie",
-                "subject_abbrev": "Chs",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "9.11.2026 (pondělí)",
-                "time": "13:05 - 13:50",
-                "group": "SCh1 - Seminář z chemie 1.sk."
             },
             {
                 "week": "Next",
@@ -15924,19 +15864,7 @@
                 "room_abbrev": "lab",
                 "day": "6.11.2026 (pátek)",
                 "time": "3 (9:30 - 10:15)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "HO",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
-                "day": "6.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "1-sk - 1.skupina"
+                "group": ""
             },
             {
                 "week": "Actual",
@@ -16678,18 +16606,6 @@
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
                 "teacher_abbrev": "HK",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "9.11.2026 (pondělí)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Next",
-                "class_name": "2.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HK",
                 "room": "J4 - jazyková Aj (3.patro)",
                 "room_abbrev": "J4",
                 "day": "10.11.2026 (úterý)",
@@ -16839,18 +16755,6 @@
                 "day": "11.11.2026 (středa)",
                 "time": "8:30 - 9:15",
                 "group": "Ak2 - Anglická konverzace 2.sk."
-            },
-            {
-                "week": "Next",
-                "class_name": "4.B",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HK",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "9.11.2026 (pondělí)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Next",
@@ -19374,10 +19278,10 @@
                 "subject": "Český jazyk a literatura",
                 "subject_abbrev": "Čj",
                 "teacher_abbrev": "ZH",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
                 "day": "9.11.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
+                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
