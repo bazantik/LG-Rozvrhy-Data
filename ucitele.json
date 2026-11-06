@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-06T02:24:28Z",
+    "last_updated": "2026-11-06T12:59:32Z",
     "days_off": {
         "Actual": {},
         "Next": {}
@@ -300,8 +300,8 @@
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
                 "teacher_abbrev": "EL",
-                "room": "2B - kmenová třídy 2.B (2.patro)",
-                "room_abbrev": "2B",
+                "room": "uVv - výtvarná výchova (1.patro)",
+                "room_abbrev": "uVv",
                 "day": "6.11.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
                 "group": "N - němčináři"
@@ -8428,8 +8428,8 @@
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
                 "teacher_abbrev": "TU",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
+                "room": "2B - kmenová třídy 2.B (2.patro)",
+                "room_abbrev": "2B",
                 "day": "6.11.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
                 "group": "2-sk - 2.skupina"
@@ -8440,8 +8440,8 @@
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
                 "teacher_abbrev": "TU",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
                 "day": "6.11.2026 (pátek)",
                 "time": "5 (11:30 - 12:15)",
                 "group": "1-sk - 1.skupina"
