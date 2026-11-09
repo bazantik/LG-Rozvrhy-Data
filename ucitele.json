@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-09T01:44:13Z",
+    "last_updated": "2026-11-09T13:57:22Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -3226,18 +3226,6 @@
                 "room_abbrev": "1S",
                 "day": "10.11.2026 (úterý)",
                 "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Sportovní příprava",
-                "subject_abbrev": "Spp",
-                "teacher_abbrev": "PL",
-                "room": "hal1 - hala 1",
-                "room_abbrev": "hal1",
-                "day": "11.11.2026 (středa)",
-                "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
             {
@@ -17844,11 +17832,35 @@
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
                 "teacher_abbrev": "ŠP",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
+                "day": "11.11.2026 (středa)",
+                "time": "3 (9:30 - 10:15)",
+                "group": "Chl - chlapci"
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.B",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "ŠP",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
                 "day": "11.11.2026 (středa)",
                 "time": "3 (9:30 - 10:15)",
                 "group": "Dív - dívky"
+            },
+            {
+                "week": "Actual",
+                "class_name": "4.B",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "ŠP",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
+                "day": "11.11.2026 (středa)",
+                "time": "4 (10:35 - 11:20)",
+                "group": "Chl - chlapci"
             },
             {
                 "week": "Actual",
@@ -17916,11 +17928,11 @@
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
                 "teacher_abbrev": "ŠP",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
                 "day": "11.11.2026 (středa)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "Dív - dívky"
+                "time": "12:15 - 13:00",
+                "group": "Chl - chlapci"
             },
             {
                 "week": "Actual",
@@ -17932,6 +17944,30 @@
                 "room_abbrev": "tv",
                 "day": "11.11.2026 (středa)",
                 "time": "12:15 - 13:00",
+                "group": "Dív - dívky"
+            },
+            {
+                "week": "Actual",
+                "class_name": "6.C",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "ŠP",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
+                "day": "11.11.2026 (středa)",
+                "time": "5 (11:30 - 12:15)",
+                "group": "Chl - chlapci"
+            },
+            {
+                "week": "Actual",
+                "class_name": "6.C",
+                "subject": "Tělesná výchova",
+                "subject_abbrev": "Tv",
+                "teacher_abbrev": "ŠP",
+                "room": "tv - tělocvična (přízemí)",
+                "room_abbrev": "tv",
+                "day": "11.11.2026 (středa)",
+                "time": "5 (11:30 - 12:15)",
                 "group": "Dív - dívky"
             },
             {
@@ -20650,30 +20686,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "ŠI",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
-                "day": "11.11.2026 (středa)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "Chl - chlapci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "ŠI",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
-                "day": "11.11.2026 (středa)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "Chl - chlapci"
-            },
-            {
-                "week": "Actual",
                 "class_name": "4.C",
                 "subject": "Tělesná výchova",
                 "subject_abbrev": "Tv",
@@ -20718,30 +20730,6 @@
                 "room_abbrev": "tv",
                 "day": "9.11.2026 (pondělí)",
                 "time": "13:05 - 13:50",
-                "group": "Chl - chlapci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "ŠI",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
-                "day": "11.11.2026 (středa)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "Chl - chlapci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "ŠI",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
-                "day": "11.11.2026 (středa)",
-                "time": "12:15 - 13:00",
                 "group": "Chl - chlapci"
             },
             {
