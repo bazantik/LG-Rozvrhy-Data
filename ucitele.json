@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-09T23:46:41Z",
+    "last_updated": "2026-11-10T13:30:25Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -3032,8 +3032,8 @@
                 "teacher_abbrev": "PL",
                 "room": "1C - kmenová třídy 1.C (1.patro)",
                 "room_abbrev": "1C",
-                "day": "11.11.2026 (středa)",
-                "time": "3 (9:30 - 10:15)",
+                "day": "12.11.2026 (čtvrtek)",
+                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -7524,8 +7524,8 @@
                 "teacher_abbrev": "KB",
                 "room": "J1 - jazyková Nj (přízemí)",
                 "room_abbrev": "J1",
-                "day": "12.11.2026 (čtvrtek)",
-                "time": "5 (11:30 - 12:15)",
+                "day": "11.11.2026 (středa)",
+                "time": "3 (9:30 - 10:15)",
                 "group": "1-sk - 1.skupina"
             },
             {
@@ -10584,8 +10584,8 @@
                 "teacher_abbrev": "VM",
                 "room": "1C - kmenová třídy 1.C (1.patro)",
                 "room_abbrev": "1C",
-                "day": "12.11.2026 (čtvrtek)",
-                "time": "5 (11:30 - 12:15)",
+                "day": "11.11.2026 (středa)",
+                "time": "3 (9:30 - 10:15)",
                 "group": "2-sk - 2.skupina"
             },
             {
