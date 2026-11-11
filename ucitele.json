@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-10T21:17:33Z",
+    "last_updated": "2026-11-11T01:56:02Z",
     "days_off": {
         "Actual": {},
         "Next": {
@@ -8,6 +8,94 @@
     },
     "events": {
         "Actual": {
+            "1.A": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "8:55 - 12:15"
+                }
+            ],
+            "1.B": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "10:00 - 12:15"
+                }
+            ],
+            "1.C": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "7:45 - 11:20"
+                }
+            ],
+            "1.S": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "2.A": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "2.B": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "2.C": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "3.A": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
             "3.B": [
                 {
                     "day_index": 0,
@@ -17,6 +105,81 @@
                     "description": "přestávka na oběd",
                     "day": "9.11.2026 (pondělí)",
                     "time": "11:30 - 12:15"
+                },
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "3.C": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "4.A": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "4.B": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "4.C": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "5.C": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
+                }
+            ],
+            "6.C": [
+                {
+                    "day_index": 4,
+                    "day_abbrev": "Pá",
+                    "date": "13.11.",
+                    "type": "akce",
+                    "description": "třídní akce",
+                    "day": "13.11.2026 (pátek)",
+                    "time": "9:30 - 12:15"
                 }
             ]
         },
@@ -58,18 +221,6 @@
                 "room_abbrev": "1B",
                 "day": "10.11.2026 (úterý)",
                 "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.B",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "EL",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -118,18 +269,6 @@
                 "room_abbrev": "1S",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "7 (13:10 - 13:55)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "EL",
-                "room": "1S - kmenová třídy 1.S (1.patro)",
-                "room_abbrev": "1S",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
                 "group": "1-sk - 1.skupina"
             },
             {
@@ -238,18 +377,6 @@
                 "room_abbrev": "J1",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "2 (8:35 - 9:20)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "EL",
-                "room": "2B - kmenová třídy 2.B (2.patro)",
-                "room_abbrev": "2B",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
                 "group": "N - němčináři"
             },
             {
@@ -508,18 +635,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.A",
-                "subject": "Základy společenských věd",
-                "subject_abbrev": "Zsv",
-                "teacher_abbrev": "JN",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "1.B",
                 "subject": "Základy společenských věd",
                 "subject_abbrev": "Zsv",
@@ -600,18 +715,6 @@
                 "room_abbrev": "1C",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.C",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "JN",
-                "room": "1C - kmenová třídy 1.C (1.patro)",
-                "room_abbrev": "1C",
-                "day": "13.11.2026 (pátek)",
-                "time": "1 (7:45 - 8:30)",
                 "group": ""
             },
             {
@@ -990,18 +1093,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.A",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "JO",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "1.B",
                 "subject": "Fyzika",
                 "subject_abbrev": "F",
@@ -1098,18 +1189,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Fyzika",
-                "subject_abbrev": "F",
-                "teacher_abbrev": "JO",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "2.C",
                 "subject": "Fyzika",
                 "subject_abbrev": "F",
@@ -1178,18 +1257,6 @@
                 "room_abbrev": "ufy",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "2 (8:35 - 9:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "JO",
-                "room": "2B - kmenová třídy 2.B (2.patro)",
-                "room_abbrev": "2B",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -1508,18 +1575,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "KA",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "4.B",
                 "subject": "Latina",
                 "subject_abbrev": "Lat",
@@ -1575,18 +1630,6 @@
                 "room": "4C - kmenová třídy 4.C (2.patro)",
                 "room_abbrev": "4C",
                 "day": "12.11.2026 (čtvrtek)",
-                "time": "2 (8:35 - 9:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.C",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "KA",
-                "room": "4C - kmenová třídy 4.C (2.patro)",
-                "room_abbrev": "4C",
-                "day": "13.11.2026 (pátek)",
                 "time": "2 (8:35 - 9:20)",
                 "group": ""
             },
@@ -1661,18 +1704,6 @@
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "11:20 - 12:05",
                 "group": "Lat - Latina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "KA",
-                "room": "2B - kmenová třídy 2.B (2.patro)",
-                "room_abbrev": "2B",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": ""
             },
             {
                 "week": "Next",
@@ -2014,18 +2045,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "MJ",
-                "room": "2C - kmenová třídy 2.C (1.patro)",
-                "room_abbrev": "2C",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.C",
                 "subject": "Informatika",
                 "subject_abbrev": "Inf",
@@ -2094,18 +2113,6 @@
                 "room_abbrev": "ufy",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "MJ",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -2460,30 +2467,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "TU",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "Dív - dívky"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "TU",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "Dív - dívky"
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.A",
                 "subject": "Seminář z biologie",
                 "subject_abbrev": "Bis",
@@ -2601,30 +2584,6 @@
                 "day": "11.11.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
                 "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.C",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "TU",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.C",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "TU",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Next",
@@ -3436,18 +3395,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HL",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "2.A",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -3613,30 +3560,6 @@
                 "day": "13.11.2026 (pátek)",
                 "time": "8:30 - 9:15",
                 "group": "SAj1 - Seminář z Aj 1.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HL",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HL",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "F - francouštináři"
             },
             {
                 "week": "Actual",
@@ -4182,18 +4105,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "KR",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "1.S",
                 "subject": "Matematika",
                 "subject_abbrev": "M",
@@ -4386,30 +4297,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "KR",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Třídnická hodina",
-                "subject_abbrev": "Th",
-                "teacher_abbrev": "KR",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "4.C",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -4442,18 +4329,6 @@
                 "room_abbrev": "J4",
                 "day": "11.11.2026 (středa)",
                 "time": "7 (13:10 - 13:55)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "KR",
-                "room": "4C - kmenová třídy 4.C (2.patro)",
-                "room_abbrev": "4C",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": "2-sk - 2.skupina"
             },
             {
@@ -4844,18 +4719,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.C",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "ZI",
-                "room": "1C - kmenová třídy 1.C (1.patro)",
-                "room_abbrev": "1C",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "2.A",
                 "subject": "Matematika",
                 "subject_abbrev": "M",
@@ -4976,30 +4839,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "3.C",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "ZI",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.C",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "ZI",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "4.A",
                 "subject": "Testování obecných studijních předpoklad",
                 "subject_abbrev": "OSP",
@@ -5064,8 +4903,8 @@
                 "subject": "Ekonomický seminář",
                 "subject_abbrev": "Ek",
                 "teacher_abbrev": "ZI",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
                 "day": "13.11.2026 (pátek)",
                 "time": "8:30 - 9:15",
                 "group": "Ek1 - Seminář z ekonomiky 1.sk."
@@ -5136,8 +4975,8 @@
                 "subject": "Ekonomický seminář",
                 "subject_abbrev": "Ek",
                 "teacher_abbrev": "ZI",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
                 "day": "13.11.2026 (pátek)",
                 "time": "8:30 - 9:15",
                 "group": "Ek1 - Seminář z ekonomiky 1.sk."
@@ -5208,8 +5047,8 @@
                 "subject": "Ekonomický seminář",
                 "subject_abbrev": "Ek",
                 "teacher_abbrev": "ZI",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
+                "room": "2A - kmenová třídy 2.A (1.patro)",
+                "room_abbrev": "2A",
                 "day": "13.11.2026 (pátek)",
                 "time": "8:30 - 9:15",
                 "group": "Ek1 - Seminář z ekonomiky 1.sk."
@@ -5722,54 +5561,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Hudební výchova",
-                "subject_abbrev": "Hv",
-                "teacher_abbrev": "LI",
-                "room": "uHv - hudební výchova (2.patro)",
-                "room_abbrev": "uHv",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Hudební výchova",
-                "subject_abbrev": "Hv",
-                "teacher_abbrev": "LI",
-                "room": "uHv - hudební výchova (2.patro)",
-                "room_abbrev": "uHv",
-                "day": "13.11.2026 (pátek)",
-                "time": "13:05 - 13:50",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Hudební výchova",
-                "subject_abbrev": "Hv",
-                "teacher_abbrev": "LI",
-                "room": "uHv - hudební výchova (2.patro)",
-                "room_abbrev": "uHv",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "Hud - hudebníci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Hudební výchova",
-                "subject_abbrev": "Hv",
-                "teacher_abbrev": "LI",
-                "room": "uHv - hudební výchova (2.patro)",
-                "room_abbrev": "uHv",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "Hud - hudebníci"
-            },
-            {
-                "week": "Actual",
                 "class_name": "2.B",
                 "subject": "Hudební výchova",
                 "subject_abbrev": "Hv",
@@ -6105,30 +5896,6 @@
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "2 (8:35 - 9:20)",
                 "group": "Sh - sportovní hry"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "KŽ",
-                "room": "sál - sportovní sál",
-                "room_abbrev": "sál",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "Chl - chlapci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Tělesná výchova",
-                "subject_abbrev": "Tv",
-                "teacher_abbrev": "KŽ",
-                "room": "tv - tělocvična (přízemí)",
-                "room_abbrev": "tv",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "Chl - chlapci"
             },
             {
                 "week": "Actual",
@@ -6964,18 +6731,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.A",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "MV",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Actual",
                 "class_name": "1.B",
                 "subject": "Francouzský jazyk",
                 "subject_abbrev": "Fj",
@@ -7132,18 +6887,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "4.A",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "MV",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Actual",
                 "class_name": "4.B",
                 "subject": "Francouzský jazyk",
                 "subject_abbrev": "Fj",
@@ -7164,18 +6907,6 @@
                 "room_abbrev": "J2",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "1 (7:45 - 8:30)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "MV",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": "F - francouštináři"
             },
             {
@@ -7482,18 +7213,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.A",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "KB",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
                 "class_name": "1.C",
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
@@ -7537,18 +7256,6 @@
                 "room": "J1 - jazyková Nj (přízemí)",
                 "room_abbrev": "J1",
                 "day": "9.11.2026 (pondělí)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "KB",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
-                "day": "13.11.2026 (pátek)",
                 "time": "5 (11:30 - 12:15)",
                 "group": "2-sk - 2.skupina"
             },
@@ -7682,18 +7389,6 @@
                 "room_abbrev": "J1",
                 "day": "11.11.2026 (středa)",
                 "time": "2 (8:35 - 9:20)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "KB",
-                "room": "2C - kmenová třídy 2.C (1.patro)",
-                "room_abbrev": "2C",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": "N - němčináři"
             },
             {
@@ -7988,30 +7683,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "HV",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "Vytv - výtvarníci"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Informatika",
-                "subject_abbrev": "Inf",
-                "teacher_abbrev": "HV",
-                "room": "vt2 - výpočetní technika (3.patro)",
-                "room_abbrev": "vt2",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "Vytv - výtvarníci"
-            },
-            {
-                "week": "Actual",
                 "class_name": "2.B",
                 "subject": "Informatika",
                 "subject_abbrev": "Inf",
@@ -8261,8 +7932,8 @@
                 "room": "1B - kmenová třídy 1.B (přízemí)",
                 "room_abbrev": "1B",
                 "day": "13.11.2026 (pátek)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "2-sk - 2.skupina"
+                "time": "2 (8:35 - 9:20)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Actual",
@@ -8273,20 +7944,8 @@
                 "room": "1B - kmenová třídy 1.B (přízemí)",
                 "room_abbrev": "1B",
                 "day": "13.11.2026 (pátek)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.B",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "KN",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "1-sk - 1.skupina"
+                "time": "1 (7:45 - 8:30)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Actual",
@@ -8748,18 +8407,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.B",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
-                "room": "1C - kmenová třídy 1.C (1.patro)",
-                "room_abbrev": "1C",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "1.S",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -8780,18 +8427,6 @@
                 "room_abbrev": "J4",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "7 (13:10 - 13:55)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
-                "room": "1S - kmenová třídy 1.S (1.patro)",
-                "room_abbrev": "1S",
-                "day": "13.11.2026 (pátek)",
-                "time": "9:40 - 10:25",
                 "group": "2-sk - 2.skupina"
             },
             {
@@ -8925,18 +8560,6 @@
                 "day": "13.11.2026 (pátek)",
                 "time": "2 (8:35 - 9:20)",
                 "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "F - francouštináři"
             },
             {
                 "week": "Actual",
@@ -9068,18 +8691,6 @@
                 "room_abbrev": "2A",
                 "day": "11.11.2026 (středa)",
                 "time": "4 (10:35 - 11:20)",
-                "group": "A2 - angličtináři sk.2"
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "MA",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
                 "group": "A2 - angličtináři sk.2"
             },
             {
@@ -9398,18 +9009,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.B",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VA",
-                "room": "1B - kmenová třídy 1.B (přízemí)",
-                "room_abbrev": "1B",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "1.C",
                 "subject": "Fyzika",
                 "subject_abbrev": "F",
@@ -9538,30 +9137,6 @@
                 "room_abbrev": "4C",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "4 (10:35 - 11:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.C",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VA",
-                "room": "4C - kmenová třídy 4.C (2.patro)",
-                "room_abbrev": "4C",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.C",
-                "subject": "Fyzika",
-                "subject_abbrev": "F",
-                "teacher_abbrev": "VA",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -9948,18 +9523,6 @@
                 "room_abbrev": "2A",
                 "day": "10.11.2026 (úterý)",
                 "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Zeměpis",
-                "subject_abbrev": "Z",
-                "teacher_abbrev": "VE",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
                 "group": ""
             },
             {
@@ -10650,18 +10213,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "VM",
-                "room": "1S - kmenová třídy 1.S (1.patro)",
-                "room_abbrev": "1S",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
                 "class_name": "4.C",
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
@@ -10755,30 +10306,6 @@
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "3 (9:30 - 10:15)",
                 "group": "N2 - němčináři sk.2"
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "VM",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "N2 - němčináři sk.2"
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "VM",
-                "room": "1A - kmenová třídy 1.A (přízemí)",
-                "room_abbrev": "1A",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "N1 - němčináři sk.1"
             },
             {
                 "week": "Next",
@@ -11019,8 +10546,8 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "13.11.2026 (pátek)",
-                "time": "1 (7:45 - 8:30)",
-                "group": "1-sk - 1.skupina"
+                "time": "2 (8:35 - 9:20)",
+                "group": "2-sk - 2.skupina"
             },
             {
                 "week": "Actual",
@@ -11031,8 +10558,8 @@
                 "room": "lab - laboratoř Bi-Ch (2.patro)",
                 "room_abbrev": "lab",
                 "day": "13.11.2026 (pátek)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "2-sk - 2.skupina"
+                "time": "1 (7:45 - 8:30)",
+                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Actual",
@@ -11156,18 +10683,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VK",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.B",
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
@@ -11224,18 +10739,6 @@
                 "room_abbrev": "3B",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Matematika",
-                "subject_abbrev": "M",
-                "teacher_abbrev": "VK",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -11578,18 +11081,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "BŠ",
-                "room": "1S - kmenová třídy 1.S (1.patro)",
-                "room_abbrev": "1S",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.B",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -11622,18 +11113,6 @@
                 "room_abbrev": "3B",
                 "day": "11.11.2026 (středa)",
                 "time": "6 (12:20 - 13:05)",
-                "group": "A1 - angličtináři sk.1"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "BŠ",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
                 "group": "A1 - angličtináři sk.1"
             },
             {
@@ -11734,18 +11213,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "4.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "BŠ",
-                "room": "J4 - jazyková Aj (3.patro)",
-                "room_abbrev": "J4",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "6.C",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -11803,18 +11270,6 @@
                 "day": "13.11.2026 (pátek)",
                 "time": "8:30 - 9:15",
                 "group": "Ak1 - Anglická konverzace 1.sk."
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "BŠ",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "A1 - angličtináři sk.1"
             },
             {
                 "week": "Next",
@@ -12204,30 +11659,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Výtvarná výchova",
-                "subject_abbrev": "Vv",
-                "teacher_abbrev": "DO",
-                "room": "uVv - výtvarná výchova (1.patro)",
-                "room_abbrev": "uVv",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Výtvarná výchova",
-                "subject_abbrev": "Vv",
-                "teacher_abbrev": "DO",
-                "room": "uVv - výtvarná výchova (1.patro)",
-                "room_abbrev": "uVv",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.C",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -12566,18 +11997,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.C",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "FN",
-                "room": "1C - kmenová třídy 1.C (1.patro)",
-                "room_abbrev": "1C",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "2.B",
                 "subject": "Francouzský jazyk",
                 "subject_abbrev": "Fj",
@@ -12722,18 +12141,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "FN",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
-                "day": "13.11.2026 (pátek)",
-                "time": "2 (8:35 - 9:20)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.B",
                 "subject": "Francouzský jazyk",
                 "subject_abbrev": "Fj",
@@ -12806,18 +12213,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "FN",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.C",
                 "subject": "Francouzský jazyk",
                 "subject_abbrev": "Fj",
@@ -12838,18 +12233,6 @@
                 "room_abbrev": "J2",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "5 (11:30 - 12:15)",
-                "group": "F - francouštináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.C",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "FN",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "13.11.2026 (pátek)",
-                "time": "1 (7:45 - 8:30)",
                 "group": "F - francouštináři"
             },
             {
@@ -12971,18 +12354,6 @@
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "8:30 - 9:15",
                 "group": "SDěj - Seminář z dějepisu"
-            },
-            {
-                "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Francouzský jazyk",
-                "subject_abbrev": "Fj",
-                "teacher_abbrev": "FN",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "F - francouštináři"
             },
             {
                 "week": "Next",
@@ -13372,18 +12743,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.C",
-                "subject": "Chemie",
-                "subject_abbrev": "Ch",
-                "teacher_abbrev": "KO",
-                "room": "1C - kmenová třídy 1.C (1.patro)",
-                "room_abbrev": "1C",
-                "day": "13.11.2026 (pátek)",
-                "time": "2 (8:35 - 9:20)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "1.S",
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
@@ -13404,18 +12763,6 @@
                 "room_abbrev": "uč",
                 "day": "10.11.2026 (úterý)",
                 "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -13489,18 +12836,6 @@
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "8:30 - 9:15",
                 "group": "SChe - Seminář z chemie"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Chemie",
-                "subject_abbrev": "Ch",
-                "teacher_abbrev": "KO",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": ""
             },
             {
                 "week": "Actual",
@@ -13645,18 +12980,6 @@
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "8:30 - 9:15",
                 "group": "SChe - Seminář z chemie"
-            },
-            {
-                "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Chemie",
-                "subject_abbrev": "Ch",
-                "teacher_abbrev": "KO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
             },
             {
                 "week": "Actual",
@@ -14058,18 +13381,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "1.S",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HK",
-                "room": "J2 - jazyková Fj (1.patro)",
-                "room_abbrev": "J2",
-                "day": "13.11.2026 (pátek)",
-                "time": "9:40 - 10:25",
-                "group": "1-sk - 1.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "2.A",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -14142,18 +13453,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HK",
-                "room": "2C - kmenová třídy 2.C (1.patro)",
-                "room_abbrev": "2C",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.B",
                 "subject": "Anglický jazyk",
                 "subject_abbrev": "Aj",
@@ -14186,18 +13485,6 @@
                 "room_abbrev": "1C",
                 "day": "11.11.2026 (středa)",
                 "time": "6 (12:20 - 13:05)",
-                "group": "A2 - angličtináři sk.2"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Anglický jazyk",
-                "subject_abbrev": "Aj",
-                "teacher_abbrev": "HK",
-                "room": "J3 - jazyková Aj (3.patro)",
-                "room_abbrev": "J3",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
                 "group": "A2 - angličtináři sk.2"
             },
             {
@@ -14636,18 +13923,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.B",
-                "subject": "Chemie",
-                "subject_abbrev": "Ch",
-                "teacher_abbrev": "HO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "2.C",
                 "subject": "Biologie",
                 "subject_abbrev": "Bi",
@@ -14693,30 +13968,6 @@
                 "day": "13.11.2026 (pátek)",
                 "time": "1 (7:45 - 8:30)",
                 "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "HO",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": "2-sk - 2.skupina"
-            },
-            {
-                "week": "Actual",
-                "class_name": "2.C",
-                "subject": "Biologie",
-                "subject_abbrev": "Bi",
-                "teacher_abbrev": "HO",
-                "room": "lab - laboratoř Bi-Ch (2.patro)",
-                "room_abbrev": "lab",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "1-sk - 1.skupina"
             },
             {
                 "week": "Actual",
@@ -14820,10 +14071,10 @@
                 "subject": "Chemie",
                 "subject_abbrev": "Ch",
                 "teacher_abbrev": "HO",
-                "room": "uB-C - kmenová třídy 5.C (2.patro)",
-                "room_abbrev": "uB-C",
+                "room": "4C - kmenová třídy 4.C (2.patro)",
+                "room_abbrev": "4C",
                 "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
+                "time": "2 (8:35 - 9:20)",
                 "group": ""
             },
             {
@@ -16093,7 +15344,7 @@
                 "room": "hal1 - hala 1",
                 "room_abbrev": "hal1",
                 "day": "13.11.2026 (pátek)",
-                "time": "0 (7:00 - 7:45)",
+                "time": "1 (7:45 - 8:30)",
                 "group": "ház - házená"
             },
             {
@@ -16105,7 +15356,7 @@
                 "room": "hal1 - hala 1",
                 "room_abbrev": "hal1",
                 "day": "13.11.2026 (pátek)",
-                "time": "1 (7:45 - 8:30)",
+                "time": "0 (7:00 - 7:45)",
                 "group": "ház - házená"
             },
             {
@@ -16544,18 +15795,6 @@
                 "room_abbrev": "3B",
                 "day": "13.11.2026 (pátek)",
                 "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Základy společenských věd",
-                "subject_abbrev": "Zsv",
-                "teacher_abbrev": "BM",
-                "room": "3B - kmenová třídy 3.B (2.patro)",
-                "room_abbrev": "3B",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
                 "group": ""
             },
             {
@@ -17190,18 +16429,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "2.A",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "2A - kmenová třídy 2.A (1.patro)",
-                "room_abbrev": "2A",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.A",
                 "subject": "Český jazyk a literatura",
                 "subject_abbrev": "Čj",
@@ -17342,18 +16569,6 @@
                 "room_abbrev": "1A",
                 "day": "11.11.2026 (středa)",
                 "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "4.B",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "ZH",
-                "room": "uD-Z - kmenová třídy 4.AB (přízemí)",
-                "room_abbrev": "uD-Z",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
                 "group": ""
             },
             {
@@ -18864,18 +18079,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "3.C",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "HE",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "13.11.2026 (pátek)",
-                "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "5.C",
                 "subject": "Český jazyk a literatura",
                 "subject_abbrev": "Čj",
@@ -18908,18 +18111,6 @@
                 "room_abbrev": "uD-Z",
                 "day": "12.11.2026 (čtvrtek)",
                 "time": "3 (9:30 - 10:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Český jazyk a literatura",
-                "subject_abbrev": "Čj",
-                "teacher_abbrev": "HE",
-                "room": "4C - kmenová třídy 4.C (2.patro)",
-                "room_abbrev": "4C",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
                 "group": ""
             },
             {
@@ -19090,18 +18281,6 @@
                 "room_abbrev": "3C",
                 "day": "11.11.2026 (středa)",
                 "time": "1 (7:45 - 8:30)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.C",
-                "subject": "Geografie",
-                "subject_abbrev": "Geo",
-                "teacher_abbrev": "ŠP",
-                "room": "3C - kmenová třídy 3.C (2.patro)",
-                "room_abbrev": "3C",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -19564,18 +18743,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "UR",
-                "room": "J1 - jazyková Nj (přízemí)",
-                "room_abbrev": "J1",
-                "day": "13.11.2026 (pátek)",
-                "time": "4 (10:35 - 11:20)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
                 "class_name": "3.B",
                 "subject": "Německý jazyk",
                 "subject_abbrev": "Nj",
@@ -19596,18 +18763,6 @@
                 "room_abbrev": "1S",
                 "day": "10.11.2026 (úterý)",
                 "time": "2 (8:35 - 9:20)",
-                "group": "N - němčináři"
-            },
-            {
-                "week": "Actual",
-                "class_name": "3.B",
-                "subject": "Německý jazyk",
-                "subject_abbrev": "Nj",
-                "teacher_abbrev": "UR",
-                "room": "1C - kmenová třídy 1.C (1.patro)",
-                "room_abbrev": "1C",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
                 "group": "N - němčináři"
             },
             {
@@ -19758,18 +18913,6 @@
             },
             {
                 "week": "Actual",
-                "class_name": "3.A",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "SK",
-                "room": "3A - kmenová třídy 3.A (2.patro)",
-                "room_abbrev": "3A",
-                "day": "13.11.2026 (pátek)",
-                "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
                 "class_name": "4.A",
                 "subject": "Seminář z dějepisu",
                 "subject_abbrev": "Ds",
@@ -19886,18 +19029,6 @@
                 "room_abbrev": "4C",
                 "day": "10.11.2026 (úterý)",
                 "time": "5 (11:30 - 12:15)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "5.C",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "SK",
-                "room": "4C - kmenová třídy 4.C (2.patro)",
-                "room_abbrev": "4C",
-                "day": "13.11.2026 (pátek)",
-                "time": "6 (12:20 - 13:05)",
                 "group": ""
             },
             {
