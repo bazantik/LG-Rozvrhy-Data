@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-18T14:04:04Z",
+    "last_updated": "2026-11-18T22:35:49Z",
     "days_off": {
         "Actual": {
             "0": "Ředitelské volno",
@@ -2119,6 +2119,18 @@
                 "room_abbrev": "1S",
                 "day": "20.11.2026 (pátek)",
                 "time": "8:45 - 9:30",
+                "group": ""
+            },
+            {
+                "week": "Actual",
+                "class_name": "2.B",
+                "subject": "Dějepis",
+                "subject_abbrev": "D",
+                "teacher_abbrev": "KR",
+                "room": "2B - kmenová třídy 2.B (2.patro)",
+                "room_abbrev": "2B",
+                "day": "19.11.2026 (čtvrtek)",
+                "time": "4 (10:35 - 11:20)",
                 "group": ""
             },
             {
@@ -5518,6 +5530,18 @@
                 "day": "20.11.2026 (pátek)",
                 "time": "8:30 - 9:15",
                 "group": "Ek1 - Seminář z ekonomiky 1.sk."
+            },
+            {
+                "week": "Actual",
+                "class_name": "6.C",
+                "subject": "Matematika",
+                "subject_abbrev": "M",
+                "teacher_abbrev": "ZI",
+                "room": "ufy - kmenová třídy 6.C (přízemí)",
+                "room_abbrev": "ufy",
+                "day": "19.11.2026 (čtvrtek)",
+                "time": "2 (8:35 - 9:20)",
+                "group": ""
             },
             {
                 "week": "Actual",
@@ -17221,18 +17245,6 @@
                 "room_abbrev": "4C",
                 "day": "20.11.2026 (pátek)",
                 "time": "6 (12:20 - 13:05)",
-                "group": ""
-            },
-            {
-                "week": "Actual",
-                "class_name": "6.C",
-                "subject": "Dějepis",
-                "subject_abbrev": "D",
-                "teacher_abbrev": "SK",
-                "room": "ufy - kmenová třídy 6.C (přízemí)",
-                "room_abbrev": "ufy",
-                "day": "19.11.2026 (čtvrtek)",
-                "time": "2 (8:35 - 9:20)",
                 "group": ""
             },
             {
